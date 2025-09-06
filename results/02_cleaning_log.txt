@@ -1,0 +1,35 @@
+== Cleaning Log ==
+Loaded dataset: retail_store_sales.csv | Shape=(12575, 11)
+Cast 'Transaction Date' -> datetime
+Standardized 'Discount Applied' to boolean; filled missing with False
+Filled 'Item' missing: 1213 -> 'Unknown'
+Filled 'Price Per Unit' missing: 609 with median=23.0
+Filled 'Quantity' missing: 604 with median=6.0
+Recomputed 'Total Spent' = Price Per Unit × Quantity (rounded 2dp)
+Saved cleaned dataset: retail_store_sales_clean.csv | Shape=(12575, 11)
+
+== Missing Values (BEFORE) ==
+Transaction ID         0
+Customer ID            0
+Category               0
+Item                1213
+Price Per Unit       609
+Quantity             604
+Total Spent          604
+Payment Method         0
+Location               0
+Transaction Date       0
+Discount Applied    4199
+
+== Missing Values (AFTER) ==
+Transaction ID      0
+Customer ID         0
+Category            0
+Item                0
+Price Per Unit      0
+Quantity            0
+Total Spent         0
+Payment Method      0
+Location            0
+Transaction Date    0
+Discount Applied    0
