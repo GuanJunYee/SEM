@@ -1,0 +1,28 @@
+== Validation Report ==
+MySQL rows: 12575
+MongoDB rows: 12575
+Row count match: True
+
+Date range (MySQL): 2022-01-01 → 2025-01-18
+Date range (Mongo): 2022-01-01 00:00:00 → 2025-01-18 00:00:00
+
+Distinct categories: MySQL=8 | Mongo=8
+Distinct payment methods: MySQL=3 | Mongo=3
+
+Sample spot-check (5 IDs) missing in Mongo: None
+
+Validation complete.
+== Validation Report ==
+MySQL rows: 12575
+MongoDB rows: 12575
+Row count match: True
+
+Date range (MySQL): 2022-01-01 → 2025-01-18
+Date range (Mongo): 2022-01-01 00:00:00 → 2025-01-18 00:00:00
+
+Distinct categories: MySQL=8 | Mongo=8
+Distinct payment methods: MySQL=3 | Mongo=3
+
+Sample spot-check (5 IDs) missing in Mongo: None
+
+Validation complete.
