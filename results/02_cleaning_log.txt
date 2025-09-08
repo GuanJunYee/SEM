@@ -1,35 +1,45 @@
-== Cleaning Log ==
 Loaded dataset: retail_store_sales.csv | Shape=(12575, 11)
-Cast 'Transaction Date' -> datetime
-Standardized 'Discount Applied' to boolean; filled missing with False
-Filled 'Item' missing: 1213 -> 'Unknown'
-Filled 'Price Per Unit' missing: 609 with median=23.0
-Filled 'Quantity' missing: 604 with median=6.0
-Recomputed 'Total Spent' = Price Per Unit × Quantity (rounded 2dp)
-Saved cleaned dataset: retail_store_sales_clean.csv | Shape=(12575, 11)
+Missing values before cleaning: 7229 total
 
-== Missing Values (BEFORE) ==
-Transaction ID         0
-Customer ID            0
-Category               0
-Item                1213
-Price Per Unit       609
-Quantity             604
-Total Spent          604
-Payment Method         0
-Location               0
-Transaction Date       0
-Discount Applied    4199
+=== PHASE 1: IDENTIFYING UNRECOVERABLE ROWS ===
+Unrecoverable rows (missing both Quantity & Total): 604
+[OK] Saved 604 dropped rows to: dropped_rows_report.csv
+Working with 11971 recoverable rows
 
-== Missing Values (AFTER) ==
-Transaction ID      0
-Customer ID         0
-Category            0
-Item                0
-Price Per Unit      0
-Quantity            0
-Total Spent         0
-Payment Method      0
-Location            0
-Transaction Date    0
-Discount Applied    0
+=== PHASE 2: SMART RECOVERY ===
+1. Standardizing Discount Applied...
+[OK] Standardized to boolean; filled 3988 missing with False
+2. Recovering missing prices using Total / Quantity...
+[OK] Recovered 609 prices
+3. Recovering missing quantities using Total / Price...
+4. Recovering missing totals using Price x Quantity...
+5. Inferring missing items from Category + Price...
+[OK] Inferred 609 items from Category + Price
+
+=== PHASE 3: FINAL CALCULATIONS ===
+[OK] Standardized Transaction Date to datetime
+Ensuring calculation consistency...
+[OK] All critical columns now complete!
+
+=== PHASE 4: SAVE AND REPORT ===
+[OK] Saved cleaned dataset: retail_store_sales_clean.csv | Shape=(11971, 11)
+
+=== CLEANING SUMMARY ===
+Initial dataset rows: 12,575
+Rows dropped (unrecoverable): 604
+Final dataset rows: 11,971
+Data retention: 95.2%
+
+Values RECOVERED (using business logic):
+  prices: 609
+  quantities: 0
+  totals: 0
+  items: 609
+
+Values IMPUTED (using defaults):
+  discount_applied: 3,988
+
+Missing values reduction:
+  Before: 7,229 missing values
+  After: 0 missing values
+  Reduction: 7,229 values recovered/filled

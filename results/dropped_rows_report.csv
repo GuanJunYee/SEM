@@ -1,0 +1,605 @@
+Transaction ID,Customer ID,Category,Item,Price Per Unit,Quantity,Total Spent,Payment Method,Location,Transaction Date,Discount Applied,Drop_Reason,Has_Price,Has_Item,Has_Category
+TXN_1372952,CUST_21,Furniture,,33.5,,,Digital Wallet,In-store,4/2/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1809665,CUST_14,Beverages,,24.5,,,Credit Card,In-store,5/11/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4206593,CUST_01,Furniture,,35,,,Digital Wallet,Online,1/13/2025,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3481599,CUST_05,Furniture,,39.5,,,Cash,Online,9/8/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1621497,CUST_06,Patisserie,,23,,,Cash,In-store,2/18/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4532214,CUST_25,Patisserie,,15.5,,,Credit Card,In-store,3/25/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5419965,CUST_23,Computers and electric accessories,,20,,,Digital Wallet,Online,1/16/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8210621,CUST_03,Beverages,,39.5,,,Digital Wallet,Online,1/3/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8586300,CUST_11,Computers and electric accessories,,27.5,,,Credit Card,Online,2/8/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1154680,CUST_25,Furniture,,35,,,Credit Card,Online,12/18/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9177662,CUST_15,Furniture,,24.5,,,Cash,In-store,9/30/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1175914,CUST_13,Butchers,,23,,,Cash,In-store,5/19/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9610555,CUST_15,Beverages,,6.5,,,Cash,In-store,11/15/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1811555,CUST_15,Food,,30.5,,,Cash,Online,7/31/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9246169,CUST_14,Electric household essentials,,38,,,Cash,Online,8/16/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9410785,CUST_24,Furniture,,12.5,,,Digital Wallet,Online,1/14/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9130896,CUST_03,Food,,20,,,Digital Wallet,In-store,5/17/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3096445,CUST_17,Computers and electric accessories,,32,,,Digital Wallet,In-store,6/25/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8838958,CUST_01,Computers and electric accessories,,15.5,,,Cash,In-store,11/8/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4351153,CUST_21,Food,,17,,,Cash,In-store,12/7/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2496138,CUST_22,Food,,11,,,Cash,Online,10/4/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3834320,CUST_18,Beverages,,24.5,,,Cash,In-store,11/8/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6615809,CUST_20,Computers and electric accessories,,15.5,,,Credit Card,In-store,6/22/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6908704,CUST_16,Electric household essentials,,26,,,Digital Wallet,In-store,2/4/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7383288,CUST_10,Milk Products,,26,,,Digital Wallet,In-store,8/12/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2771813,CUST_17,Electric household essentials,,41,,,Digital Wallet,Online,6/10/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2346263,CUST_21,Electric household essentials,,12.5,,,Credit Card,In-store,9/9/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3171192,CUST_13,Food,,26,,,Cash,Online,1/22/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9472812,CUST_04,Food,,11,,,Digital Wallet,Online,8/16/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3948610,CUST_07,Furniture,,33.5,,,Digital Wallet,In-store,2/24/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5034035,CUST_08,Furniture,,9.5,,,Credit Card,Online,8/25/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9923470,CUST_21,Patisserie,,5,,,Digital Wallet,In-store,3/8/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9671023,CUST_22,Computers and electric accessories,,30.5,,,Credit Card,In-store,11/2/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8482271,CUST_23,Patisserie,,20,,,Cash,Online,1/5/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7068372,CUST_23,Computers and electric accessories,,23,,,Digital Wallet,In-store,12/10/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6417831,CUST_22,Computers and electric accessories,,20,,,Credit Card,In-store,1/5/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7461424,CUST_25,Beverages,,27.5,,,Cash,In-store,11/23/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7705441,CUST_25,Milk Products,,26,,,Digital Wallet,Online,2/27/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9637396,CUST_19,Electric household essentials,,21.5,,,Cash,Online,9/4/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1909279,CUST_10,Electric household essentials,,24.5,,,Credit Card,Online,6/12/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1534681,CUST_08,Food,,24.5,,,Credit Card,In-store,1/11/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2515470,CUST_07,Food,,8,,,Credit Card,Online,9/20/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8110567,CUST_02,Beverages,,33.5,,,Digital Wallet,In-store,4/12/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3499525,CUST_02,Beverages,,15.5,,,Digital Wallet,Online,2/16/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8988049,CUST_01,Milk Products,,8,,,Digital Wallet,In-store,6/27/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9887959,CUST_24,Beverages,,21.5,,,Cash,Online,8/9/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1995311,CUST_23,Patisserie,,38,,,Cash,In-store,5/16/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2677539,CUST_15,Food,,39.5,,,Cash,In-store,8/31/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5980975,CUST_13,Furniture,,5,,,Credit Card,Online,8/1/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3368345,CUST_25,Furniture,,12.5,,,Credit Card,In-store,10/3/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7113206,CUST_09,Milk Products,,27.5,,,Digital Wallet,In-store,7/28/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3704834,CUST_07,Electric household essentials,,29,,,Cash,Online,7/6/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9620768,CUST_07,Butchers,,21.5,,,Cash,Online,4/6/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9025948,CUST_21,Beverages,,8,,,Digital Wallet,In-store,12/25/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2126674,CUST_16,Milk Products,,39.5,,,Digital Wallet,In-store,10/29/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3053471,CUST_16,Beverages,,29,,,Cash,Online,6/9/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4737365,CUST_05,Furniture,,24.5,,,Digital Wallet,Online,11/2/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1446103,CUST_20,Butchers,,6.5,,,Cash,In-store,7/29/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8615445,CUST_01,Beverages,,21.5,,,Credit Card,In-store,12/22/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7297595,CUST_19,Furniture,,39.5,,,Cash,In-store,1/7/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7819515,CUST_13,Butchers,,12.5,,,Cash,Online,2/15/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9999124,CUST_02,Butchers,,36.5,,,Digital Wallet,In-store,2/21/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7075100,CUST_20,Patisserie,,41,,,Digital Wallet,Online,2/16/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1276885,CUST_23,Patisserie,,5,,,Cash,In-store,12/30/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7729357,CUST_08,Milk Products,,14,,,Credit Card,Online,6/19/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9773979,CUST_05,Computers and electric accessories,,8,,,Digital Wallet,Online,11/4/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2164614,CUST_07,Furniture,,6.5,,,Digital Wallet,Online,5/18/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2500042,CUST_13,Computers and electric accessories,,35,,,Digital Wallet,Online,4/15/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2082664,CUST_06,Beverages,,26,,,Digital Wallet,Online,5/30/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3988616,CUST_01,Butchers,,38,,,Digital Wallet,In-store,9/17/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5069186,CUST_17,Electric household essentials,,6.5,,,Credit Card,Online,1/10/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6126106,CUST_10,Milk Products,,30.5,,,Digital Wallet,Online,8/31/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4880929,CUST_20,Butchers,,8,,,Digital Wallet,In-store,11/3/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9469569,CUST_08,Food,,12.5,,,Digital Wallet,In-store,10/9/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8093982,CUST_12,Beverages,,27.5,,,Credit Card,Online,3/11/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3954012,CUST_02,Furniture,,12.5,,,Credit Card,In-store,5/29/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3537865,CUST_21,Milk Products,,32,,,Credit Card,Online,11/6/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3745490,CUST_01,Computers and electric accessories,,12.5,,,Credit Card,Online,9/4/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8433240,CUST_01,Milk Products,,27.5,,,Cash,In-store,3/28/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4056456,CUST_08,Electric household essentials,,9.5,,,Digital Wallet,Online,5/23/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8531399,CUST_18,Patisserie,,20,,,Cash,Online,12/5/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4245105,CUST_08,Milk Products,,32,,,Cash,In-store,1/9/2025,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2026101,CUST_10,Patisserie,,24.5,,,Cash,In-store,5/14/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7673556,CUST_10,Milk Products,,27.5,,,Cash,In-store,1/7/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8084251,CUST_16,Electric household essentials,,26,,,Digital Wallet,In-store,1/3/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8794900,CUST_18,Computers and electric accessories,,32,,,Cash,In-store,11/19/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5742371,CUST_18,Food,,9.5,,,Credit Card,In-store,4/25/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2584277,CUST_23,Electric household essentials,,33.5,,,Cash,In-store,4/17/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2736863,CUST_13,Milk Products,,38,,,Digital Wallet,Online,8/10/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1985138,CUST_12,Patisserie,,11,,,Digital Wallet,In-store,1/31/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7663942,CUST_02,Milk Products,,14,,,Cash,In-store,2/28/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2384950,CUST_08,Computers and electric accessories,,17,,,Digital Wallet,Online,1/11/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3047170,CUST_15,Furniture,,9.5,,,Cash,Online,1/16/2025,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6901057,CUST_16,Beverages,,8,,,Credit Card,Online,8/31/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8293398,CUST_19,Patisserie,,20,,,Cash,Online,3/29/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4877812,CUST_01,Furniture,,39.5,,,Credit Card,In-store,2/15/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2826965,CUST_06,Computers and electric accessories,,24.5,,,Credit Card,Online,9/12/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1433054,CUST_13,Butchers,,21.5,,,Cash,Online,1/25/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9676475,CUST_19,Computers and electric accessories,,6.5,,,Digital Wallet,In-store,1/17/2025,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4201299,CUST_09,Food,,9.5,,,Cash,Online,2/16/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3330661,CUST_19,Butchers,,21.5,,,Digital Wallet,In-store,1/9/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6880511,CUST_20,Butchers,,9.5,,,Credit Card,In-store,3/4/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5763933,CUST_07,Patisserie,,24.5,,,Digital Wallet,In-store,11/30/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1770449,CUST_25,Electric household essentials,,38,,,Digital Wallet,In-store,2/1/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5047909,CUST_03,Milk Products,,36.5,,,Digital Wallet,Online,9/20/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6522613,CUST_19,Computers and electric accessories,,21.5,,,Digital Wallet,Online,4/13/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9506859,CUST_13,Computers and electric accessories,,27.5,,,Cash,In-store,10/28/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4801214,CUST_06,Food,,36.5,,,Cash,Online,10/17/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4144500,CUST_05,Beverages,,29,,,Cash,In-store,6/26/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5431879,CUST_10,Electric household essentials,,38,,,Credit Card,Online,2/14/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8464397,CUST_09,Food,,24.5,,,Credit Card,In-store,5/18/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8757042,CUST_17,Butchers,,36.5,,,Credit Card,Online,11/30/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8589807,CUST_21,Patisserie,,6.5,,,Digital Wallet,Online,9/9/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7675282,CUST_22,Electric household essentials,,26,,,Digital Wallet,In-store,3/5/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4375011,CUST_19,Butchers,,9.5,,,Credit Card,In-store,1/16/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5012129,CUST_13,Electric household essentials,,12.5,,,Cash,Online,12/4/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8416846,CUST_15,Beverages,,27.5,,,Cash,Online,5/28/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9676576,CUST_25,Furniture,,20,,,Digital Wallet,In-store,6/27/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1649045,CUST_21,Computers and electric accessories,,21.5,,,Credit Card,Online,1/18/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1551058,CUST_14,Food,,33.5,,,Cash,Online,3/16/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4118493,CUST_24,Patisserie,,39.5,,,Credit Card,In-store,7/14/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6493139,CUST_06,Butchers,,41,,,Credit Card,In-store,8/22/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3811015,CUST_24,Patisserie,,33.5,,,Cash,Online,2/4/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8737677,CUST_24,Butchers,,30.5,,,Cash,In-store,12/6/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1153995,CUST_03,Electric household essentials,,23,,,Credit Card,In-store,2/12/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1005543,CUST_19,Food,,30.5,,,Cash,In-store,12/3/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6186202,CUST_14,Patisserie,,18.5,,,Digital Wallet,In-store,2/25/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4005159,CUST_23,Butchers,,32,,,Cash,In-store,7/9/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6434080,CUST_01,Butchers,,41,,,Cash,Online,6/2/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3161464,CUST_02,Butchers,,21.5,,,Credit Card,In-store,6/2/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9963254,CUST_08,Furniture,,27.5,,,Credit Card,In-store,11/14/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7917265,CUST_18,Milk Products,,5,,,Cash,In-store,2/18/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7726623,CUST_11,Beverages,,12.5,,,Credit Card,In-store,12/16/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1130015,CUST_23,Milk Products,,9.5,,,Cash,In-store,3/27/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7583557,CUST_14,Milk Products,,9.5,,,Cash,Online,1/4/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2500072,CUST_23,Food,,41,,,Cash,Online,2/24/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6917746,CUST_05,Computers and electric accessories,,20,,,Cash,Online,9/17/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1882050,CUST_06,Patisserie,,24.5,,,Digital Wallet,In-store,1/28/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9977844,CUST_18,Patisserie,,36.5,,,Digital Wallet,In-store,12/27/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7472400,CUST_16,Patisserie,,12.5,,,Credit Card,In-store,5/14/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8935474,CUST_08,Computers and electric accessories,,41,,,Credit Card,Online,12/26/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2792485,CUST_04,Computers and electric accessories,,6.5,,,Digital Wallet,In-store,8/9/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1777313,CUST_07,Milk Products,,15.5,,,Credit Card,Online,1/18/2025,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3894802,CUST_08,Beverages,,32,,,Digital Wallet,In-store,4/10/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9224464,CUST_12,Computers and electric accessories,,11,,,Credit Card,Online,5/4/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3909836,CUST_14,Patisserie,,15.5,,,Credit Card,In-store,3/2/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3838434,CUST_13,Food,,17,,,Cash,Online,1/26/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5599747,CUST_19,Patisserie,,11,,,Credit Card,Online,5/15/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4279575,CUST_18,Furniture,,33.5,,,Digital Wallet,In-store,9/25/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1041483,CUST_19,Electric household essentials,,15.5,,,Cash,In-store,3/19/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4800229,CUST_01,Food,,12.5,,,Credit Card,In-store,6/6/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9430988,CUST_13,Milk Products,,36.5,,,Cash,In-store,5/31/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3122188,CUST_24,Food,,21.5,,,Credit Card,Online,2/25/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9818603,CUST_05,Computers and electric accessories,,8,,,Credit Card,In-store,7/20/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1609763,CUST_25,Electric household essentials,,36.5,,,Credit Card,Online,3/23/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1491657,CUST_07,Beverages,,5,,,Cash,Online,9/26/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8635339,CUST_09,Milk Products,,11,,,Credit Card,In-store,10/31/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6328369,CUST_12,Food,,6.5,,,Credit Card,Online,3/18/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6254334,CUST_23,Butchers,,32,,,Digital Wallet,Online,3/29/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7581231,CUST_18,Milk Products,,14,,,Credit Card,In-store,12/9/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3462517,CUST_01,Patisserie,,9.5,,,Credit Card,In-store,2/1/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8048579,CUST_23,Furniture,,21.5,,,Cash,Online,3/28/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6664172,CUST_21,Food,,23,,,Digital Wallet,Online,3/1/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2823143,CUST_02,Butchers,,38,,,Credit Card,In-store,9/21/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9900913,CUST_25,Patisserie,,27.5,,,Cash,In-store,11/15/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3543537,CUST_07,Milk Products,,33.5,,,Cash,Online,1/11/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6159311,CUST_02,Beverages,,41,,,Cash,In-store,10/18/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1671487,CUST_22,Electric household essentials,,33.5,,,Digital Wallet,In-store,12/3/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4182653,CUST_01,Electric household essentials,,38,,,Cash,In-store,5/10/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4783696,CUST_13,Furniture,,41,,,Cash,In-store,10/26/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4071141,CUST_11,Food,,33.5,,,Cash,In-store,12/13/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4041690,CUST_24,Electric household essentials,,11,,,Credit Card,Online,7/2/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5101986,CUST_15,Beverages,,24.5,,,Cash,In-store,6/16/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2532729,CUST_17,Beverages,,14,,,Cash,In-store,8/10/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4658659,CUST_12,Food,,24.5,,,Digital Wallet,In-store,7/30/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4593029,CUST_07,Milk Products,,20,,,Digital Wallet,In-store,5/14/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8883231,CUST_04,Computers and electric accessories,,32,,,Cash,Online,12/12/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9619283,CUST_01,Butchers,,35,,,Credit Card,Online,12/11/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7084750,CUST_25,Food,,21.5,,,Digital Wallet,In-store,7/20/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8882076,CUST_25,Computers and electric accessories,,27.5,,,Cash,Online,3/31/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1220541,CUST_21,Food,,35,,,Digital Wallet,In-store,12/3/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4567294,CUST_21,Patisserie,,21.5,,,Digital Wallet,Online,3/28/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2514543,CUST_20,Patisserie,,9.5,,,Digital Wallet,In-store,6/8/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6206996,CUST_23,Computers and electric accessories,,21.5,,,Credit Card,Online,1/31/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8127777,CUST_14,Patisserie,,33.5,,,Digital Wallet,In-store,2/27/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4344596,CUST_17,Patisserie,,29,,,Credit Card,Online,4/3/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5728541,CUST_12,Furniture,,15.5,,,Cash,Online,1/27/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2324094,CUST_18,Computers and electric accessories,,11,,,Credit Card,In-store,12/7/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2788067,CUST_17,Electric household essentials,,35,,,Cash,In-store,8/23/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7354091,CUST_22,Patisserie,,20,,,Digital Wallet,In-store,4/28/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8697140,CUST_03,Beverages,,21.5,,,Digital Wallet,Online,11/8/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5311325,CUST_05,Computers and electric accessories,,24.5,,,Credit Card,In-store,8/28/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9646389,CUST_22,Beverages,,27.5,,,Credit Card,In-store,2/17/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1402550,CUST_15,Patisserie,,29,,,Credit Card,Online,5/1/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6739031,CUST_14,Butchers,,6.5,,,Digital Wallet,In-store,4/4/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9017801,CUST_06,Milk Products,,36.5,,,Credit Card,Online,1/29/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7783626,CUST_13,Computers and electric accessories,,5,,,Cash,Online,7/13/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4443574,CUST_08,Butchers,,23,,,Digital Wallet,Online,1/8/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4024714,CUST_13,Food,,30.5,,,Credit Card,Online,4/10/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8595871,CUST_12,Butchers,,36.5,,,Credit Card,Online,6/20/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5102434,CUST_10,Beverages,,21.5,,,Credit Card,Online,1/6/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6981473,CUST_17,Beverages,,21.5,,,Cash,In-store,1/23/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5498271,CUST_17,Computers and electric accessories,,20,,,Digital Wallet,In-store,1/25/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5103418,CUST_02,Patisserie,,9.5,,,Digital Wallet,Online,10/24/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9276432,CUST_13,Butchers,,21.5,,,Credit Card,In-store,1/14/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5162382,CUST_24,Electric household essentials,,15.5,,,Digital Wallet,Online,8/26/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8868085,CUST_19,Furniture,,8,,,Credit Card,Online,3/7/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1539411,CUST_07,Beverages,,9.5,,,Cash,In-store,8/8/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7133661,CUST_16,Butchers,,11,,,Cash,In-store,1/3/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1532460,CUST_09,Furniture,,29,,,Digital Wallet,Online,5/6/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3379956,CUST_15,Computers and electric accessories,,33.5,,,Cash,In-store,2/15/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1442308,CUST_11,Electric household essentials,,32,,,Cash,Online,1/31/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7785972,CUST_04,Furniture,,24.5,,,Cash,In-store,12/15/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4187431,CUST_23,Electric household essentials,,18.5,,,Digital Wallet,In-store,5/18/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3415090,CUST_04,Electric household essentials,,35,,,Digital Wallet,In-store,1/20/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5020561,CUST_14,Beverages,,17,,,Cash,In-store,3/7/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1945001,CUST_19,Beverages,,8,,,Credit Card,In-store,6/27/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6434099,CUST_25,Patisserie,,36.5,,,Cash,Online,8/8/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2118875,CUST_12,Patisserie,,8,,,Digital Wallet,In-store,7/13/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5041305,CUST_07,Butchers,,38,,,Digital Wallet,Online,11/29/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3800420,CUST_20,Electric household essentials,,24.5,,,Cash,In-store,12/14/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5280917,CUST_20,Furniture,,5,,,Credit Card,In-store,5/23/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1574191,CUST_15,Beverages,,35,,,Digital Wallet,Online,2/24/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6615635,CUST_22,Furniture,,20,,,Credit Card,Online,3/20/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9012548,CUST_23,Butchers,,15.5,,,Credit Card,In-store,11/28/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9224310,CUST_03,Computers and electric accessories,,11,,,Credit Card,Online,11/21/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6130668,CUST_22,Electric household essentials,,27.5,,,Cash,In-store,1/19/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4797230,CUST_20,Electric household essentials,,21.5,,,Credit Card,In-store,8/1/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7312497,CUST_18,Beverages,,14,,,Cash,In-store,8/23/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3096679,CUST_20,Beverages,,9.5,,,Digital Wallet,Online,9/17/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4219023,CUST_06,Butchers,,27.5,,,Digital Wallet,In-store,1/4/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8390000,CUST_07,Patisserie,,36.5,,,Cash,In-store,11/9/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3450894,CUST_03,Furniture,,35,,,Credit Card,In-store,11/25/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5125110,CUST_09,Patisserie,,21.5,,,Digital Wallet,In-store,8/13/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3661385,CUST_25,Butchers,,33.5,,,Digital Wallet,In-store,9/21/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6979277,CUST_13,Computers and electric accessories,,18.5,,,Digital Wallet,Online,5/16/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7773278,CUST_11,Electric household essentials,,38,,,Cash,Online,5/25/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4929314,CUST_24,Electric household essentials,,23,,,Digital Wallet,Online,11/13/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7780832,CUST_04,Computers and electric accessories,,20,,,Cash,In-store,6/14/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6233782,CUST_14,Butchers,,17,,,Digital Wallet,Online,2/14/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1187836,CUST_01,Computers and electric accessories,,38,,,Digital Wallet,In-store,12/20/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1199916,CUST_21,Furniture,,6.5,,,Digital Wallet,In-store,6/25/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6682588,CUST_02,Furniture,,39.5,,,Cash,In-store,3/6/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7564225,CUST_18,Food,,21.5,,,Digital Wallet,In-store,11/9/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3928142,CUST_01,Furniture,,35,,,Credit Card,In-store,1/5/2025,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3853013,CUST_04,Beverages,,35,,,Cash,Online,7/28/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1864016,CUST_08,Furniture,,26,,,Credit Card,In-store,3/15/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4271313,CUST_12,Patisserie,,17,,,Cash,Online,12/9/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8100199,CUST_01,Butchers,,38,,,Credit Card,Online,11/27/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3244419,CUST_16,Food,,18.5,,,Cash,In-store,12/12/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5087206,CUST_21,Computers and electric accessories,,17,,,Digital Wallet,Online,10/21/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5960598,CUST_08,Computers and electric accessories,,6.5,,,Digital Wallet,Online,6/7/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6556712,CUST_15,Milk Products,,20,,,Cash,In-store,4/22/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9517045,CUST_09,Electric household essentials,,17,,,Digital Wallet,Online,5/20/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4052796,CUST_20,Furniture,,33.5,,,Credit Card,In-store,8/14/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4206470,CUST_05,Electric household essentials,,23,,,Cash,In-store,6/28/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2913442,CUST_05,Butchers,,8,,,Cash,Online,12/5/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5416741,CUST_13,Computers and electric accessories,,8,,,Credit Card,Online,2/2/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4591527,CUST_01,Computers and electric accessories,,38,,,Digital Wallet,Online,2/3/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6179863,CUST_02,Butchers,,30.5,,,Credit Card,In-store,10/29/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3077115,CUST_10,Furniture,,41,,,Digital Wallet,Online,7/10/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8284459,CUST_20,Food,,9.5,,,Credit Card,In-store,7/3/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9403595,CUST_11,Milk Products,,5,,,Cash,In-store,12/12/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1415403,CUST_22,Patisserie,,29,,,Credit Card,Online,8/23/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5172318,CUST_20,Beverages,,21.5,,,Credit Card,Online,11/11/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2733918,CUST_25,Food,,35,,,Cash,Online,10/28/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7061960,CUST_12,Patisserie,,23,,,Digital Wallet,Online,12/26/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6876674,CUST_10,Food,,30.5,,,Credit Card,Online,5/14/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7535814,CUST_05,Butchers,,38,,,Credit Card,In-store,12/3/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4341401,CUST_18,Electric household essentials,,18.5,,,Digital Wallet,In-store,4/9/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5238973,CUST_06,Electric household essentials,,38,,,Digital Wallet,Online,2/6/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3071219,CUST_07,Computers and electric accessories,,36.5,,,Credit Card,Online,10/28/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2831627,CUST_06,Computers and electric accessories,,6.5,,,Digital Wallet,In-store,6/9/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7623526,CUST_17,Computers and electric accessories,,23,,,Digital Wallet,Online,3/7/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7357090,CUST_09,Food,,33.5,,,Cash,In-store,12/12/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6837467,CUST_06,Butchers,,35,,,Digital Wallet,Online,10/1/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8283688,CUST_08,Electric household essentials,,29,,,Digital Wallet,In-store,6/4/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9164821,CUST_24,Food,,9.5,,,Cash,Online,11/17/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7498795,CUST_10,Furniture,,9.5,,,Digital Wallet,In-store,1/10/2025,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6172206,CUST_16,Beverages,,17,,,Digital Wallet,In-store,4/24/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2257428,CUST_13,Milk Products,,35,,,Cash,In-store,5/16/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7820167,CUST_16,Milk Products,,9.5,,,Credit Card,In-store,11/21/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5328564,CUST_19,Milk Products,,35,,,Credit Card,Online,9/13/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3598978,CUST_17,Butchers,,41,,,Cash,Online,10/24/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6717536,CUST_20,Beverages,,24.5,,,Credit Card,Online,7/1/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8249416,CUST_04,Beverages,,20,,,Cash,Online,3/27/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2165479,CUST_11,Electric household essentials,,36.5,,,Digital Wallet,Online,6/8/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9620236,CUST_09,Beverages,,33.5,,,Credit Card,Online,9/16/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5266941,CUST_03,Patisserie,,9.5,,,Digital Wallet,Online,4/5/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4891833,CUST_03,Computers and electric accessories,,29,,,Cash,Online,2/25/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2360216,CUST_07,Food,,41,,,Digital Wallet,In-store,6/1/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9247444,CUST_21,Patisserie,,11,,,Digital Wallet,In-store,3/20/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7478827,CUST_07,Milk Products,,6.5,,,Digital Wallet,In-store,11/9/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8404647,CUST_10,Food,,20,,,Credit Card,Online,5/14/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2491501,CUST_06,Beverages,,6.5,,,Cash,In-store,5/4/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9077055,CUST_25,Food,,18.5,,,Digital Wallet,In-store,5/15/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2537913,CUST_08,Butchers,,23,,,Cash,Online,3/25/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2901672,CUST_23,Milk Products,,27.5,,,Cash,In-store,6/1/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3281825,CUST_17,Beverages,,38,,,Credit Card,Online,1/29/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3652632,CUST_08,Milk Products,,9.5,,,Credit Card,In-store,8/16/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1228408,CUST_01,Patisserie,,41,,,Cash,Online,12/19/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7323366,CUST_23,Patisserie,,23,,,Credit Card,In-store,11/4/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8074211,CUST_18,Milk Products,,29,,,Cash,In-store,4/17/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2114614,CUST_12,Beverages,,24.5,,,Digital Wallet,In-store,9/2/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9374739,CUST_05,Computers and electric accessories,,36.5,,,Cash,In-store,7/24/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6036397,CUST_06,Butchers,,36.5,,,Digital Wallet,Online,10/8/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7766873,CUST_09,Computers and electric accessories,,21.5,,,Digital Wallet,Online,3/29/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1746795,CUST_18,Electric household essentials,,9.5,,,Credit Card,In-store,1/15/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9349221,CUST_09,Butchers,,6.5,,,Digital Wallet,Online,5/2/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8925408,CUST_22,Computers and electric accessories,,35,,,Cash,In-store,11/30/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1226245,CUST_18,Food,,21.5,,,Credit Card,In-store,5/31/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4044974,CUST_23,Furniture,,20,,,Cash,Online,1/14/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2551088,CUST_17,Beverages,,30.5,,,Digital Wallet,Online,5/14/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5080357,CUST_06,Beverages,,14,,,Digital Wallet,In-store,7/22/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2083689,CUST_18,Food,,27.5,,,Credit Card,In-store,11/7/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6364752,CUST_23,Patisserie,,5,,,Cash,Online,7/14/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1337454,CUST_09,Food,,41,,,Digital Wallet,In-store,11/5/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7612835,CUST_08,Beverages,,6.5,,,Credit Card,Online,11/4/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4894246,CUST_24,Electric household essentials,,29,,,Digital Wallet,Online,5/6/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7554858,CUST_25,Milk Products,,6.5,,,Digital Wallet,Online,9/27/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5793195,CUST_23,Furniture,,26,,,Cash,In-store,2/15/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7140503,CUST_25,Electric household essentials,,39.5,,,Digital Wallet,In-store,6/12/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8927407,CUST_24,Food,,11,,,Cash,Online,10/26/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7954454,CUST_08,Furniture,,35,,,Digital Wallet,In-store,9/14/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9158283,CUST_21,Patisserie,,29,,,Cash,In-store,9/26/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5473528,CUST_16,Patisserie,,18.5,,,Credit Card,Online,12/3/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7941731,CUST_01,Electric household essentials,,6.5,,,Digital Wallet,In-store,2/15/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6015868,CUST_07,Patisserie,,24.5,,,Credit Card,In-store,4/8/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6780214,CUST_05,Food,,9.5,,,Credit Card,Online,8/15/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5158837,CUST_17,Food,,17,,,Credit Card,Online,3/20/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2350545,CUST_17,Butchers,,41,,,Credit Card,In-store,7/29/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1376742,CUST_24,Patisserie,,17,,,Credit Card,Online,10/20/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6133268,CUST_13,Patisserie,,21.5,,,Credit Card,Online,3/17/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6251701,CUST_07,Food,,30.5,,,Cash,Online,6/25/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8496149,CUST_23,Milk Products,,20,,,Cash,In-store,3/17/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6227305,CUST_22,Beverages,,26,,,Digital Wallet,Online,1/31/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4699589,CUST_13,Electric household essentials,,41,,,Credit Card,Online,7/7/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3747085,CUST_04,Beverages,,32,,,Cash,In-store,1/24/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5771988,CUST_22,Patisserie,,26,,,Credit Card,In-store,4/7/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7589967,CUST_16,Electric household essentials,,14,,,Cash,Online,2/25/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6096860,CUST_18,Furniture,,35,,,Digital Wallet,Online,5/15/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2337522,CUST_10,Beverages,,41,,,Cash,Online,7/15/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8076264,CUST_19,Furniture,,6.5,,,Digital Wallet,In-store,12/1/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4195260,CUST_17,Furniture,,35,,,Cash,Online,10/5/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6730526,CUST_20,Patisserie,,41,,,Cash,In-store,1/7/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8416020,CUST_02,Patisserie,,29,,,Digital Wallet,In-store,3/5/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7581115,CUST_18,Furniture,,35,,,Credit Card,In-store,1/22/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1579155,CUST_22,Butchers,,5,,,Cash,In-store,12/29/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7784746,CUST_16,Electric household essentials,,41,,,Credit Card,Online,4/5/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2946597,CUST_15,Computers and electric accessories,,33.5,,,Credit Card,In-store,2/11/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2324066,CUST_12,Beverages,,14,,,Credit Card,Online,9/28/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8697688,CUST_12,Computers and electric accessories,,17,,,Digital Wallet,Online,6/8/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2763819,CUST_03,Beverages,,39.5,,,Digital Wallet,In-store,1/23/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6989869,CUST_16,Computers and electric accessories,,18.5,,,Cash,In-store,2/21/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2325423,CUST_12,Food,,8,,,Cash,In-store,12/17/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1499569,CUST_13,Food,,29,,,Credit Card,Online,1/2/2025,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8469419,CUST_24,Food,,33.5,,,Cash,Online,3/25/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7819012,CUST_19,Computers and electric accessories,,6.5,,,Digital Wallet,Online,7/2/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7378094,CUST_22,Milk Products,,20,,,Cash,In-store,12/6/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4495319,CUST_25,Computers and electric accessories,,15.5,,,Cash,Online,4/15/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7171953,CUST_11,Patisserie,,39.5,,,Cash,Online,11/11/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9379358,CUST_25,Furniture,,20,,,Cash,Online,4/7/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6522433,CUST_22,Computers and electric accessories,,20,,,Credit Card,In-store,10/19/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2154827,CUST_11,Butchers,,41,,,Credit Card,In-store,8/4/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9120906,CUST_10,Computers and electric accessories,,21.5,,,Credit Card,In-store,2/13/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2478597,CUST_07,Computers and electric accessories,,11,,,Cash,In-store,9/6/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7224577,CUST_12,Food,,20,,,Credit Card,In-store,9/27/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5752809,CUST_11,Butchers,,23,,,Cash,In-store,12/24/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2501304,CUST_14,Beverages,,15.5,,,Credit Card,In-store,7/14/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6314198,CUST_23,Beverages,,24.5,,,Credit Card,Online,1/6/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1977173,CUST_23,Butchers,,9.5,,,Credit Card,Online,6/14/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4219435,CUST_23,Food,,15.5,,,Digital Wallet,Online,10/7/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1443512,CUST_19,Patisserie,,29,,,Cash,Online,11/20/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9682557,CUST_05,Beverages,,32,,,Digital Wallet,Online,12/15/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2147697,CUST_04,Milk Products,,39.5,,,Credit Card,In-store,3/19/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3521719,CUST_22,Patisserie,,39.5,,,Cash,In-store,10/15/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5780579,CUST_08,Furniture,,12.5,,,Digital Wallet,In-store,5/23/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3359492,CUST_17,Milk Products,,8,,,Cash,Online,11/5/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1490623,CUST_19,Butchers,,29,,,Cash,Online,9/5/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2258558,CUST_17,Beverages,,15.5,,,Cash,In-store,11/23/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6771885,CUST_25,Patisserie,,8,,,Digital Wallet,Online,1/4/2025,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4617564,CUST_14,Butchers,,27.5,,,Digital Wallet,In-store,4/15/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7799324,CUST_21,Furniture,,18.5,,,Digital Wallet,Online,10/31/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5193416,CUST_05,Milk Products,,14,,,Digital Wallet,Online,12/16/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2407302,CUST_14,Patisserie,,38,,,Cash,In-store,2/25/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2669850,CUST_22,Electric household essentials,,29,,,Cash,Online,6/7/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8940025,CUST_11,Milk Products,,15.5,,,Credit Card,Online,7/24/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5504521,CUST_05,Beverages,,35,,,Digital Wallet,In-store,4/19/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6920044,CUST_09,Patisserie,,15.5,,,Cash,Online,8/8/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6292395,CUST_08,Food,,18.5,,,Digital Wallet,In-store,7/11/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4333089,CUST_20,Food,,20,,,Credit Card,Online,12/21/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3522256,CUST_16,Butchers,,12.5,,,Credit Card,Online,5/2/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5599144,CUST_05,Patisserie,,30.5,,,Cash,In-store,9/11/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1679439,CUST_10,Milk Products,,36.5,,,Cash,Online,11/1/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8800567,CUST_13,Computers and electric accessories,,32,,,Cash,Online,10/5/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6380866,CUST_22,Computers and electric accessories,,41,,,Credit Card,In-store,5/29/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6172739,CUST_03,Beverages,,8,,,Credit Card,In-store,9/12/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3347185,CUST_01,Butchers,,6.5,,,Cash,In-store,8/7/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3246313,CUST_23,Patisserie,,14,,,Digital Wallet,Online,1/11/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2801305,CUST_04,Butchers,,27.5,,,Cash,Online,6/26/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9518220,CUST_05,Beverages,,32,,,Digital Wallet,In-store,2/4/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1621579,CUST_09,Computers and electric accessories,,32,,,Credit Card,Online,11/18/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9692463,CUST_16,Milk Products,,27.5,,,Digital Wallet,In-store,3/14/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3324948,CUST_14,Furniture,,38,,,Cash,Online,4/25/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5377881,CUST_23,Computers and electric accessories,,21.5,,,Cash,Online,5/29/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4733738,CUST_19,Butchers,,11,,,Cash,In-store,6/29/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5007965,CUST_05,Computers and electric accessories,,24.5,,,Digital Wallet,Online,11/19/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1158381,CUST_24,Butchers,,36.5,,,Credit Card,Online,12/26/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4168865,CUST_11,Patisserie,,26,,,Cash,Online,12/3/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4426046,CUST_10,Butchers,,38,,,Cash,Online,2/16/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9767779,CUST_03,Computers and electric accessories,,29,,,Cash,In-store,8/3/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1746192,CUST_24,Electric household essentials,,15.5,,,Cash,In-store,7/30/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9038096,CUST_25,Electric household essentials,,23,,,Credit Card,Online,5/8/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6102791,CUST_02,Furniture,,33.5,,,Credit Card,In-store,4/5/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7415874,CUST_19,Electric household essentials,,6.5,,,Cash,Online,12/20/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2910944,CUST_24,Patisserie,,21.5,,,Credit Card,Online,12/21/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4258144,CUST_20,Milk Products,,9.5,,,Cash,In-store,11/15/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9382641,CUST_06,Milk Products,,14,,,Credit Card,In-store,7/5/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4838523,CUST_11,Butchers,,23,,,Credit Card,In-store,8/29/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4022829,CUST_18,Furniture,,29,,,Digital Wallet,In-store,2/14/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2477774,CUST_23,Food,,6.5,,,Cash,Online,8/16/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6749795,CUST_12,Patisserie,,38,,,Digital Wallet,Online,8/6/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2813218,CUST_02,Beverages,,6.5,,,Digital Wallet,Online,11/14/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1814757,CUST_01,Patisserie,,6.5,,,Cash,In-store,8/18/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4539341,CUST_12,Food,,8,,,Cash,Online,1/6/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9295319,CUST_07,Patisserie,,27.5,,,Credit Card,In-store,6/4/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8868169,CUST_07,Food,,12.5,,,Digital Wallet,Online,1/5/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4654153,CUST_16,Electric household essentials,,5,,,Cash,Online,6/3/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3554058,CUST_02,Food,,20,,,Digital Wallet,In-store,8/24/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8581857,CUST_05,Patisserie,,17,,,Cash,Online,8/20/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6206009,CUST_21,Computers and electric accessories,,29,,,Credit Card,In-store,8/4/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4245049,CUST_04,Butchers,,14,,,Credit Card,Online,1/12/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8061410,CUST_12,Computers and electric accessories,,36.5,,,Cash,Online,5/2/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8846106,CUST_19,Beverages,,39.5,,,Digital Wallet,In-store,10/16/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2931826,CUST_23,Butchers,,38,,,Credit Card,Online,2/13/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8040299,CUST_24,Computers and electric accessories,,21.5,,,Digital Wallet,Online,9/16/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9753602,CUST_18,Milk Products,,12.5,,,Cash,In-store,3/31/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9195906,CUST_02,Electric household essentials,,32,,,Digital Wallet,In-store,5/20/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2392647,CUST_04,Food,,15.5,,,Cash,Online,10/12/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8941172,CUST_02,Electric household essentials,,41,,,Credit Card,Online,7/9/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3017691,CUST_14,Patisserie,,39.5,,,Credit Card,In-store,10/14/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8256476,CUST_07,Computers and electric accessories,,21.5,,,Cash,In-store,10/8/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8552028,CUST_13,Patisserie,,38,,,Cash,Online,1/23/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6278418,CUST_05,Milk Products,,21.5,,,Cash,Online,3/21/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5992097,CUST_17,Patisserie,,41,,,Digital Wallet,In-store,2/13/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6709663,CUST_05,Food,,8,,,Cash,Online,10/23/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8444157,CUST_11,Patisserie,,9.5,,,Digital Wallet,Online,7/17/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8963866,CUST_07,Milk Products,,20,,,Credit Card,Online,12/9/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4949721,CUST_08,Computers and electric accessories,,23,,,Credit Card,In-store,4/28/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6272504,CUST_14,Furniture,,15.5,,,Digital Wallet,In-store,2/28/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6736197,CUST_07,Food,,23,,,Digital Wallet,In-store,12/31/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4705521,CUST_07,Food,,11,,,Cash,Online,7/6/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4772413,CUST_22,Milk Products,,33.5,,,Digital Wallet,Online,5/13/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3807303,CUST_03,Furniture,,39.5,,,Credit Card,Online,10/8/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9856733,CUST_03,Patisserie,,24.5,,,Credit Card,In-store,3/15/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8966314,CUST_19,Milk Products,,30.5,,,Digital Wallet,Online,4/14/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1041890,CUST_03,Furniture,,27.5,,,Digital Wallet,Online,7/2/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1759177,CUST_20,Beverages,,21.5,,,Digital Wallet,In-store,5/17/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3605723,CUST_04,Furniture,,20,,,Digital Wallet,Online,5/27/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6964544,CUST_16,Milk Products,,32,,,Cash,Online,7/20/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3858680,CUST_11,Electric household essentials,,32,,,Credit Card,Online,3/16/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4570138,CUST_14,Beverages,,35,,,Cash,Online,9/3/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4967198,CUST_20,Furniture,,41,,,Digital Wallet,In-store,1/14/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7608681,CUST_17,Electric household essentials,,26,,,Digital Wallet,In-store,3/7/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1382421,CUST_14,Beverages,,33.5,,,Credit Card,In-store,7/12/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4862692,CUST_12,Patisserie,,33.5,,,Cash,In-store,1/9/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4240515,CUST_09,Electric household essentials,,29,,,Credit Card,Online,9/23/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6461820,CUST_18,Food,,36.5,,,Cash,In-store,11/29/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2158665,CUST_19,Electric household essentials,,23,,,Digital Wallet,In-store,7/27/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6595686,CUST_18,Milk Products,,32,,,Cash,Online,11/13/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3943422,CUST_19,Patisserie,,41,,,Credit Card,In-store,12/9/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9906846,CUST_08,Beverages,,9.5,,,Cash,Online,10/3/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5237132,CUST_08,Furniture,,41,,,Digital Wallet,In-store,11/28/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3649978,CUST_03,Butchers,,20,,,Digital Wallet,In-store,6/13/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7684996,CUST_15,Patisserie,,15.5,,,Digital Wallet,In-store,12/4/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5963334,CUST_07,Computers and electric accessories,,32,,,Cash,Online,2/11/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3416433,CUST_10,Electric household essentials,,17,,,Digital Wallet,In-store,3/1/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2160657,CUST_16,Electric household essentials,,27.5,,,Digital Wallet,Online,12/23/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6285433,CUST_24,Computers and electric accessories,,17,,,Credit Card,In-store,7/18/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9551364,CUST_11,Butchers,,8,,,Credit Card,In-store,6/27/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1419872,CUST_11,Furniture,,9.5,,,Digital Wallet,Online,6/4/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2909351,CUST_11,Milk Products,,20,,,Cash,In-store,8/14/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4782711,CUST_20,Electric household essentials,,11,,,Digital Wallet,In-store,5/17/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9659189,CUST_13,Computers and electric accessories,,33.5,,,Credit Card,Online,6/20/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1208593,CUST_21,Patisserie,,20,,,Credit Card,In-store,11/19/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2794565,CUST_17,Beverages,,24.5,,,Credit Card,In-store,3/11/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5127072,CUST_18,Electric household essentials,,33.5,,,Credit Card,In-store,9/21/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8889522,CUST_21,Milk Products,,12.5,,,Cash,Online,9/21/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3701394,CUST_06,Milk Products,,20,,,Digital Wallet,Online,7/28/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4738336,CUST_18,Milk Products,,24.5,,,Cash,Online,3/5/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6307499,CUST_22,Electric household essentials,,33.5,,,Credit Card,In-store,6/22/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2995389,CUST_20,Computers and electric accessories,,11,,,Credit Card,Online,11/28/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5833782,CUST_17,Milk Products,,38,,,Credit Card,In-store,9/25/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9074980,CUST_02,Food,,11,,,Credit Card,In-store,10/7/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6376357,CUST_16,Butchers,,8,,,Cash,Online,9/29/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3224536,CUST_18,Milk Products,,20,,,Digital Wallet,Online,5/10/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5427219,CUST_04,Milk Products,,5,,,Cash,In-store,12/19/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2968416,CUST_17,Food,,39.5,,,Digital Wallet,Online,4/13/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6396781,CUST_03,Computers and electric accessories,,27.5,,,Cash,In-store,2/4/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2564188,CUST_05,Patisserie,,12.5,,,Credit Card,In-store,4/14/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9712639,CUST_10,Computers and electric accessories,,36.5,,,Digital Wallet,In-store,8/4/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7553716,CUST_22,Food,,36.5,,,Cash,In-store,4/7/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4656312,CUST_22,Patisserie,,24.5,,,Digital Wallet,In-store,6/10/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9114949,CUST_09,Beverages,,30.5,,,Cash,Online,4/11/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9237487,CUST_22,Computers and electric accessories,,32,,,Cash,Online,8/11/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4075359,CUST_06,Furniture,,12.5,,,Credit Card,In-store,10/13/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7013735,CUST_25,Furniture,,39.5,,,Credit Card,Online,11/7/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8388501,CUST_19,Furniture,,20,,,Credit Card,Online,4/24/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7777970,CUST_19,Computers and electric accessories,,32,,,Digital Wallet,Online,1/2/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6677596,CUST_09,Milk Products,,27.5,,,Credit Card,In-store,12/2/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8865856,CUST_05,Beverages,,17,,,Cash,Online,4/11/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9246983,CUST_09,Electric household essentials,,26,,,Cash,Online,7/24/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4548028,CUST_20,Food,,39.5,,,Credit Card,In-store,8/4/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5351182,CUST_18,Food,,6.5,,,Credit Card,In-store,4/10/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4992208,CUST_22,Food,,11,,,Cash,Online,3/27/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2191926,CUST_19,Butchers,,17,,,Digital Wallet,In-store,10/18/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4396084,CUST_19,Furniture,,11,,,Cash,In-store,3/30/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3149006,CUST_08,Milk Products,,38,,,Credit Card,Online,5/19/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3742213,CUST_21,Butchers,,6.5,,,Cash,In-store,12/10/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3964623,CUST_22,Milk Products,,36.5,,,Cash,In-store,3/1/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3384705,CUST_17,Computers and electric accessories,,14,,,Cash,In-store,10/5/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8126831,CUST_23,Butchers,,29,,,Credit Card,In-store,11/25/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5862292,CUST_11,Beverages,,14,,,Credit Card,In-store,4/16/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9177670,CUST_25,Computers and electric accessories,,32,,,Cash,Online,10/20/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4880413,CUST_17,Furniture,,20,,,Cash,In-store,2/25/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9875507,CUST_15,Computers and electric accessories,,26,,,Digital Wallet,Online,7/16/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4581027,CUST_10,Patisserie,,39.5,,,Cash,In-store,11/7/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4261143,CUST_20,Milk Products,,29,,,Credit Card,In-store,12/11/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8631857,CUST_11,Food,,36.5,,,Digital Wallet,In-store,4/13/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5308843,CUST_13,Food,,9.5,,,Credit Card,In-store,12/24/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4143842,CUST_05,Butchers,,23,,,Digital Wallet,In-store,6/7/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3022586,CUST_24,Butchers,,24.5,,,Digital Wallet,In-store,8/13/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5266615,CUST_20,Patisserie,,6.5,,,Digital Wallet,In-store,4/10/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5612933,CUST_23,Butchers,,12.5,,,Cash,In-store,6/2/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9103065,CUST_03,Food,,23,,,Cash,In-store,5/21/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1955780,CUST_18,Milk Products,,27.5,,,Credit Card,Online,7/12/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6241198,CUST_24,Computers and electric accessories,,35,,,Credit Card,Online,10/2/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1768505,CUST_21,Food,,8,,,Cash,In-store,8/24/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3760533,CUST_04,Computers and electric accessories,,32,,,Digital Wallet,Online,10/31/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6585500,CUST_25,Electric household essentials,,5,,,Credit Card,Online,10/9/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6342389,CUST_02,Food,,30.5,,,Cash,In-store,10/9/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8315157,CUST_01,Furniture,,41,,,Cash,Online,4/19/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7528195,CUST_24,Patisserie,,24.5,,,Credit Card,Online,3/15/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3995208,CUST_05,Food,,17,,,Digital Wallet,In-store,6/2/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7467051,CUST_22,Milk Products,,14,,,Credit Card,In-store,5/18/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9868145,CUST_15,Patisserie,,9.5,,,Credit Card,In-store,6/2/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3171724,CUST_18,Patisserie,,29,,,Digital Wallet,Online,5/7/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1851869,CUST_20,Electric household essentials,,33.5,,,Cash,In-store,12/17/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8972502,CUST_12,Food,,9.5,,,Digital Wallet,Online,5/5/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7869272,CUST_06,Butchers,,9.5,,,Digital Wallet,In-store,1/12/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7450689,CUST_18,Butchers,,12.5,,,Credit Card,Online,5/25/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3573477,CUST_18,Milk Products,,32,,,Cash,In-store,8/22/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4090954,CUST_21,Milk Products,,32,,,Credit Card,Online,8/3/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5238332,CUST_23,Beverages,,24.5,,,Digital Wallet,Online,1/15/2025,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9208311,CUST_06,Electric household essentials,,33.5,,,Digital Wallet,In-store,4/12/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3964699,CUST_15,Patisserie,,29,,,Credit Card,In-store,12/19/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3306261,CUST_15,Electric household essentials,,6.5,,,Digital Wallet,In-store,3/25/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9478937,CUST_05,Patisserie,,23,,,Digital Wallet,Online,11/14/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4311947,CUST_18,Electric household essentials,,14,,,Digital Wallet,In-store,7/17/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1834624,CUST_25,Patisserie,,39.5,,,Cash,In-store,7/22/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9663281,CUST_10,Milk Products,,9.5,,,Digital Wallet,In-store,6/8/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8047218,CUST_17,Food,,30.5,,,Credit Card,Online,2/14/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4475227,CUST_18,Electric household essentials,,21.5,,,Digital Wallet,Online,5/10/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2305144,CUST_24,Food,,36.5,,,Digital Wallet,Online,6/15/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3311644,CUST_24,Computers and electric accessories,,32,,,Cash,Online,1/1/2025,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4259454,CUST_09,Computers and electric accessories,,33.5,,,Credit Card,In-store,7/29/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8157843,CUST_11,Milk Products,,38,,,Digital Wallet,In-store,3/29/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5211253,CUST_19,Furniture,,33.5,,,Credit Card,Online,7/12/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8407265,CUST_08,Furniture,,41,,,Credit Card,In-store,8/30/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2598056,CUST_05,Furniture,,26,,,Credit Card,In-store,6/30/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1799662,CUST_23,Food,,21.5,,,Digital Wallet,Online,1/9/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6304327,CUST_18,Electric household essentials,,32,,,Credit Card,Online,3/23/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8970327,CUST_06,Patisserie,,14,,,Digital Wallet,Online,7/16/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5693955,CUST_08,Electric household essentials,,17,,,Credit Card,Online,7/1/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4682522,CUST_07,Electric household essentials,,26,,,Cash,Online,7/9/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7224775,CUST_02,Butchers,,21.5,,,Cash,In-store,5/8/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4338398,CUST_07,Food,,9.5,,,Digital Wallet,Online,9/14/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9298092,CUST_09,Electric household essentials,,23,,,Digital Wallet,In-store,11/14/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8812902,CUST_10,Computers and electric accessories,,11,,,Credit Card,Online,11/17/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4194229,CUST_20,Beverages,,35,,,Credit Card,In-store,2/2/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4879610,CUST_04,Food,,11,,,Digital Wallet,Online,8/5/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1223128,CUST_13,Butchers,,26,,,Digital Wallet,In-store,10/24/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2252968,CUST_17,Patisserie,,15.5,,,Credit Card,Online,12/11/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_8297757,CUST_17,Beverages,,8,,,Cash,Online,12/27/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6330621,CUST_17,Electric household essentials,,41,,,Digital Wallet,Online,1/12/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5545903,CUST_25,Milk Products,,21.5,,,Credit Card,In-store,3/25/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2414883,CUST_04,Food,,41,,,Cash,In-store,2/1/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1720372,CUST_20,Food,,11,,,Credit Card,In-store,10/23/2023,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9279801,CUST_03,Furniture,,39.5,,,Credit Card,In-store,5/27/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7072261,CUST_19,Patisserie,,38,,,Credit Card,In-store,3/8/2024,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_9493727,CUST_07,Milk Products,,36.5,,,Credit Card,Online,9/20/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_6073559,CUST_19,Butchers,,21.5,,,Digital Wallet,Online,7/18/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2912144,CUST_06,Electric household essentials,,33.5,,,Credit Card,In-store,12/21/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3425314,CUST_09,Butchers,,8,,,Cash,In-store,10/14/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_5573824,CUST_16,Patisserie,,41,,,Digital Wallet,In-store,3/30/2022,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2450919,CUST_15,Furniture,,14,,,Cash,Online,4/11/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4174028,CUST_17,Butchers,,6.5,,,Credit Card,Online,1/7/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2997457,CUST_02,Beverages,,24.5,,,Digital Wallet,Online,7/4/2023,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_3638067,CUST_11,Electric household essentials,,35,,,Digital Wallet,In-store,4/21/2022,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_1069238,CUST_23,Food,,5,,,Digital Wallet,In-store,8/13/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4823896,CUST_05,Milk Products,,8,,,Cash,In-store,7/21/2022,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_4397672,CUST_04,Beverages,,41,,,Credit Card,Online,11/28/2024,TRUE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_7422454,CUST_07,Butchers,,33.5,,,Cash,Online,4/15/2023,,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
+TXN_2153066,CUST_17,Electric household essentials,,29,,,Digital Wallet,In-store,3/28/2024,FALSE,Missing both Quantity and Total Spent - mathematically unrecoverable,TRUE,FALSE,TRUE
