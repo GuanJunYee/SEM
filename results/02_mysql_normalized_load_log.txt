@@ -1,0 +1,97 @@
+[2025-09-08 14:05:35] Starting normalized MySQL migration...
+[2025-09-08 14:05:35] Target database: retail_db
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] MIGRATION_START: Starting normalized MySQL migration to database: retail_db
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] FILE_VALIDATION: All required CSV files found: 6 files
+[2025-09-08 14:05:35] Ensured database exists: retail_db
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] DATABASE_CREATED: Database retail_db created/verified
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] CONNECTION_ESTABLISHED: Database connection established to retail_db
+[2025-09-08 14:05:35] 
+Creating normalized database schema...
+[2025-09-08 14:05:35] Dropped existing table: Transactions
+[2025-09-08 14:05:35] Dropped existing table: Items
+[2025-09-08 14:05:35] Dropped existing table: Customers
+[2025-09-08 14:05:35] Dropped existing table: PaymentMethods
+[2025-09-08 14:05:35] Dropped existing table: Locations
+[2025-09-08 14:05:35] Dropped existing table: Categories
+[2025-09-08 14:05:35] Created table: Categories
+[2025-09-08 14:05:35] Created table: Locations
+[2025-09-08 14:05:35] Created table: PaymentMethods
+[2025-09-08 14:05:35] Created table: Customers
+[2025-09-08 14:05:35] Created table: Items
+[2025-09-08 14:05:35] Created table: Transactions
+[2025-09-08 14:05:35] Schema DDL saved to: C:\Users\guanj\OneDrive\Desktop\SEM\results\02_mysql_normalized_schema.sql
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] SCHEMA_CREATED: Normalized schema tables created/verified
+[2025-09-08 14:05:35] 
+Loading reference tables...
+[2025-09-08 14:05:35] Loading 8 categories with idempotent writes...
+[2025-09-08 14:05:35] Categories loaded: 8
+[2025-09-08 14:05:35] [OK] Batch reconciliation passed for Categories (categories migration): Expected 8, Got 8
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] RECONCILIATION_SUCCESS: Table Categories (categories migration): Expected 8, Got 8
+[2025-09-08 14:05:35] Loading 2 locations with idempotent writes...
+[2025-09-08 14:05:35] Locations loaded: 2
+[2025-09-08 14:05:35] [OK] Batch reconciliation passed for Locations (locations migration): Expected 2, Got 2
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] RECONCILIATION_SUCCESS: Table Locations (locations migration): Expected 2, Got 2
+[2025-09-08 14:05:35] Loading 3 payment methods with idempotent writes...
+[2025-09-08 14:05:35] Payment methods loaded: 3
+[2025-09-08 14:05:35] [OK] Batch reconciliation passed for PaymentMethods (payment methods migration): Expected 3, Got 3
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] RECONCILIATION_SUCCESS: Table PaymentMethods (payment methods migration): Expected 3, Got 3
+[2025-09-08 14:05:35] Loading 25 customers with idempotent writes...
+[2025-09-08 14:05:35] Customers loaded: 25
+[2025-09-08 14:05:35] [OK] Batch reconciliation passed for Customers (customers migration): Expected 25, Got 25
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] RECONCILIATION_SUCCESS: Table Customers (customers migration): Expected 25, Got 25
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] REFERENCE_TABLES_LOADED: All reference tables (Categories, Locations, PaymentMethods, Customers) loaded
+[2025-09-08 14:05:35] 
+Loading Items table with idempotent writes...
+[2025-09-08 14:05:35] Loading 200 items...
+[2025-09-08 14:05:35] Items loaded: 200
+[2025-09-08 14:05:35] [OK] Batch reconciliation passed for Items (items migration): Expected 200, Got 200
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] RECONCILIATION_SUCCESS: Table Items (items migration): Expected 200, Got 200
+[2025-09-08 14:05:35] AUDIT: [2025-09-08 14:05:35] ITEMS_TABLE_LOADED: Items table with foreign key relationships loaded
+[2025-09-08 14:05:35] 
+Loading Transactions table...
+[2025-09-08 14:05:35] Loading 11971 transactions...
+[2025-09-08 14:05:35] Loaded batch 1-1000 (1000 successful)
+[2025-09-08 14:05:36] Loaded batch 1001-2000 (2000 successful)
+[2025-09-08 14:05:36] Loaded batch 2001-3000 (3000 successful)
+[2025-09-08 14:05:37] Loaded batch 3001-4000 (4000 successful)
+[2025-09-08 14:05:37] Loaded batch 4001-5000 (5000 successful)
+[2025-09-08 14:05:38] Loaded batch 5001-6000 (6000 successful)
+[2025-09-08 14:05:38] Loaded batch 6001-7000 (7000 successful)
+[2025-09-08 14:05:38] Loaded batch 7001-8000 (8000 successful)
+[2025-09-08 14:05:39] Loaded batch 8001-9000 (9000 successful)
+[2025-09-08 14:05:39] Loaded batch 9001-10000 (10000 successful)
+[2025-09-08 14:05:40] Loaded batch 10001-11000 (11000 successful)
+[2025-09-08 14:05:40] Loaded batch 11001-11971 (11971 successful)
+[2025-09-08 14:05:40] Total transactions in database: 11971
+[2025-09-08 14:05:40] [OK] Batch reconciliation passed for Transactions (final check): Expected 11971, Got 11971
+[2025-09-08 14:05:40] AUDIT: [2025-09-08 14:05:40] RECONCILIATION_SUCCESS: Table Transactions (final check): Expected 11971, Got 11971
+[2025-09-08 14:05:40] [OK] All transaction data successfully migrated and verified
+[2025-09-08 14:05:40] AUDIT: [2025-09-08 14:05:40] TRANSACTIONS_TABLE_LOADED: Transactions table with all foreign key relationships loaded
+[2025-09-08 14:05:40] 
+Verifying data integrity...
+[2025-09-08 14:05:40] Categories: 8 records
+[2025-09-08 14:05:40] Locations: 2 records
+[2025-09-08 14:05:40] PaymentMethods: 3 records
+[2025-09-08 14:05:40] Customers: 25 records
+[2025-09-08 14:05:40] Items: 200 records
+[2025-09-08 14:05:40] Transactions: 11,971 records
+[2025-09-08 14:05:40] 
+Checking foreign key integrity:
+[2025-09-08 14:05:40] Orphaned items (no category): 0
+[2025-09-08 14:05:40] Transactions with invalid customers: 0
+[2025-09-08 14:05:40] Transactions with invalid items: 0
+[2025-09-08 14:05:40] Transactions with invalid payment methods: 0
+[2025-09-08 14:05:40] Transactions with invalid locations: 0
+[2025-09-08 14:05:40] 
+Business rule validation:
+[2025-09-08 14:05:40] Transactions with negative/zero quantity: 0
+[2025-09-08 14:05:40] Transactions with negative/zero total price: 0
+[2025-09-08 14:05:40] AUDIT: [2025-09-08 14:05:40] DATA_INTEGRITY_VERIFIED: All data integrity checks completed
+[2025-09-08 14:05:40] 
+============================================================
+[2025-09-08 14:05:40] NORMALIZED MYSQL MIGRATION COMPLETE!
+[2025-09-08 14:05:40] ============================================================
+[2025-09-08 14:05:40] Database: retail_db
+[2025-09-08 14:05:40] Schema saved to: C:\Users\guanj\OneDrive\Desktop\SEM\results\02_mysql_normalized_schema.sql
+[2025-09-08 14:05:40] Full log saved to: C:\Users\guanj\OneDrive\Desktop\SEM\results\02_mysql_normalized_load_log.txt
+[2025-09-08 14:05:40] AUDIT: [2025-09-08 14:05:40] MIGRATION_SUCCESS: Complete migration finished successfully. Database: retail_db, Log: C:\Users\guanj\OneDrive\Desktop\SEM\results\02_mysql_normalized_load_log.txt

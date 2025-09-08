@@ -1,6 +1,6 @@
 NORMALIZED DATABASE MIGRATION VALIDATION
 ================================================================================
-Validation started at: 2025-09-08 13:57:39.941043
+Validation started at: 2025-09-08 14:09:51.412932
 MySQL database: retail_db
 MongoDB database: retail_store
 Structure type: normalized
@@ -132,11 +132,11 @@ SPOT CHECK VERIFICATION (NORMALIZED)
 
 Spot checking 5 transactions:
 --------------------------------------------------
-[OK] Transaction TXN_4450656: Data matches
-[OK] Transaction TXN_7164174: Data matches
-[OK] Transaction TXN_4436192: Data matches
-[OK] Transaction TXN_5133656: Data matches
-[OK] Transaction TXN_4364043: Data matches
+[OK] Transaction TXN_5274178: Data matches
+[OK] Transaction TXN_5333157: Data matches
+[OK] Transaction TXN_6459760: Data matches
+[OK] Transaction TXN_3030324: Data matches
+[OK] Transaction TXN_2411272: Data matches
 
 Spot Check Summary:
   Total checked: 5
@@ -193,6 +193,6 @@ SECURITY & COMPLIANCE SUMMARY:
   • Audit Trail: Complete validation history preserved for compliance
   • Error Handling: Comprehensive exception management for secure operation
 
-Validation completed at: 2025-09-08 13:57:40.260962
+Validation completed at: 2025-09-08 14:09:51.732786
 Report saved to: C:\Users\guanj\OneDrive\Desktop\SEM\results\04_validation_report_normalized.txt
 This validation demonstrates professional handling of sensitive data migration

@@ -1,0 +1,16 @@
+[2025-09-08 14:05:35] MIGRATION_START: Starting normalized MySQL migration to database: retail_db
+[2025-09-08 14:05:35] FILE_VALIDATION: All required CSV files found: 6 files
+[2025-09-08 14:05:35] DATABASE_CREATED: Database retail_db created/verified
+[2025-09-08 14:05:35] CONNECTION_ESTABLISHED: Database connection established to retail_db
+[2025-09-08 14:05:35] SCHEMA_CREATED: Normalized schema tables created/verified
+[2025-09-08 14:05:35] RECONCILIATION_SUCCESS: Table Categories (categories migration): Expected 8, Got 8
+[2025-09-08 14:05:35] RECONCILIATION_SUCCESS: Table Locations (locations migration): Expected 2, Got 2
+[2025-09-08 14:05:35] RECONCILIATION_SUCCESS: Table PaymentMethods (payment methods migration): Expected 3, Got 3
+[2025-09-08 14:05:35] RECONCILIATION_SUCCESS: Table Customers (customers migration): Expected 25, Got 25
+[2025-09-08 14:05:35] REFERENCE_TABLES_LOADED: All reference tables (Categories, Locations, PaymentMethods, Customers) loaded
+[2025-09-08 14:05:35] RECONCILIATION_SUCCESS: Table Items (items migration): Expected 200, Got 200
+[2025-09-08 14:05:35] ITEMS_TABLE_LOADED: Items table with foreign key relationships loaded
+[2025-09-08 14:05:40] RECONCILIATION_SUCCESS: Table Transactions (final check): Expected 11971, Got 11971
+[2025-09-08 14:05:40] TRANSACTIONS_TABLE_LOADED: Transactions table with all foreign key relationships loaded
+[2025-09-08 14:05:40] DATA_INTEGRITY_VERIFIED: All data integrity checks completed
+[2025-09-08 14:05:40] MIGRATION_SUCCESS: Complete migration finished successfully. Database: retail_db, Log: C:\Users\guanj\OneDrive\Desktop\SEM\results\02_mysql_normalized_load_log.txt
