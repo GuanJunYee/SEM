@@ -1,0 +1,85 @@
+2025-09-08 14:09:38.055366: Starting MongoDB migration...
+2025-09-08 14:09:38.055366: Source: MySQL database 'retail_db'
+2025-09-08 14:09:38.055366: Target: MongoDB database 'retail_store'
+2025-09-08 14:09:38.055366: Structure: Normalized
+2025-09-08 14:09:38.056769: Batch size: 500
+2025-09-08 14:09:38.056769: Validating database connections...
+2025-09-08 14:09:38.102134: [OK] MySQL connection validated
+2025-09-08 14:09:38.108209: [OK] MongoDB connection validated
+2025-09-08 14:09:38.108209: Getting MySQL record counts...
+2025-09-08 14:09:38.111035:   Categories: 8 records
+2025-09-08 14:09:38.112047:   Locations: 2 records
+2025-09-08 14:09:38.113167:   PaymentMethods: 3 records
+2025-09-08 14:09:38.113167:   Customers: 25 records
+2025-09-08 14:09:38.114613:   Items: 200 records
+2025-09-08 14:09:38.116876:   Transactions: 11,971 records
+2025-09-08 14:09:38.117872: Total records to migrate: 12,209
+2025-09-08 14:09:38.117872: Clearing existing MongoDB collections...
+2025-09-08 14:09:38.119885:   Dropped collection: categories
+2025-09-08 14:09:38.121892:   Dropped collection: locations
+2025-09-08 14:09:38.123913:   Dropped collection: payment_methods
+2025-09-08 14:09:38.123913:   Dropped collection: customers
+2025-09-08 14:09:38.125056:   Dropped collection: items
+2025-09-08 14:09:38.126064:   Dropped collection: transactions
+2025-09-08 14:09:38.127213: 
+============================================================
+2025-09-08 14:09:38.127213: MIGRATING TO NORMALIZED MONGODB STRUCTURE
+2025-09-08 14:09:38.127213: ============================================================
+2025-09-08 14:09:38.128398: 
+1. Migrating Categories...
+2025-09-08 14:09:38.149686:   Categories: 8 documents copied
+2025-09-08 14:09:38.149686: 
+2. Migrating Locations...
+2025-09-08 14:09:38.161922:   Locations: 2 documents copied
+2025-09-08 14:09:38.161922: 
+3. Migrating Payment Methods...
+2025-09-08 14:09:38.173330:   Payment Methods: 3 documents copied
+2025-09-08 14:09:38.174332: 
+4. Migrating Customers...
+2025-09-08 14:09:38.221034:   Customers: 25 documents copied
+2025-09-08 14:09:38.221034: 
+5. Migrating Items...
+2025-09-08 14:09:38.247834:   Items: 200 documents copied
+2025-09-08 14:09:38.247834: 
+6. Migrating Transactions...
+2025-09-08 14:09:38.250855:   Total transactions to migrate: 11,971
+2025-09-08 14:09:38.336579:     Processed batch: 500 / 11,971 transactions
+2025-09-08 14:09:38.405839:     Processed batch: 1,000 / 11,971 transactions
+2025-09-08 14:09:38.479807:     Processed batch: 1,500 / 11,971 transactions
+2025-09-08 14:09:38.547856:     Processed batch: 2,000 / 11,971 transactions
+2025-09-08 14:09:38.617033:     Processed batch: 2,500 / 11,971 transactions
+2025-09-08 14:09:38.684001:     Processed batch: 3,000 / 11,971 transactions
+2025-09-08 14:09:38.756645:     Processed batch: 3,500 / 11,971 transactions
+2025-09-08 14:09:38.824016:     Processed batch: 4,000 / 11,971 transactions
+2025-09-08 14:09:38.894103:     Processed batch: 4,500 / 11,971 transactions
+2025-09-08 14:09:38.962782:     Processed batch: 5,000 / 11,971 transactions
+2025-09-08 14:09:39.036390:     Processed batch: 5,500 / 11,971 transactions
+2025-09-08 14:09:39.105989:     Processed batch: 6,000 / 11,971 transactions
+2025-09-08 14:09:39.176032:     Processed batch: 6,500 / 11,971 transactions
+2025-09-08 14:09:39.246377:     Processed batch: 7,000 / 11,971 transactions
+2025-09-08 14:09:39.316340:     Processed batch: 7,500 / 11,971 transactions
+2025-09-08 14:09:39.385086:     Processed batch: 8,000 / 11,971 transactions
+2025-09-08 14:09:39.456780:     Processed batch: 8,500 / 11,971 transactions
+2025-09-08 14:09:39.527980:     Processed batch: 9,000 / 11,971 transactions
+2025-09-08 14:09:39.605037:     Processed batch: 9,500 / 11,971 transactions
+2025-09-08 14:09:39.677705:     Processed batch: 10,000 / 11,971 transactions
+2025-09-08 14:09:39.749642:     Processed batch: 10,500 / 11,971 transactions
+2025-09-08 14:09:39.824219:     Processed batch: 11,000 / 11,971 transactions
+2025-09-08 14:09:39.897063:     Processed batch: 11,500 / 11,971 transactions
+2025-09-08 14:09:39.963867:     Processed batch: 12,000 / 11,971 transactions
+2025-09-08 14:09:39.963867:   Transactions: 11971 documents copied
+2025-09-08 14:09:39.965091: 
+============================================================
+2025-09-08 14:09:39.965091: MIGRATION COMPLETED
+2025-09-08 14:09:39.966103: ============================================================
+2025-09-08 14:09:39.966103: [OK] categories: 8 documents, 0 errors
+2025-09-08 14:09:39.966103: [OK] locations: 2 documents, 0 errors
+2025-09-08 14:09:39.966103: [OK] payment_methods: 3 documents, 0 errors
+2025-09-08 14:09:39.966103: [OK] customers: 25 documents, 0 errors
+2025-09-08 14:09:39.967426: [OK] items: 200 documents, 0 errors
+2025-09-08 14:09:39.967426: [OK] transactions: 11,971 documents, 0 errors
+2025-09-08 14:09:39.967426: ----------------------------------------
+2025-09-08 14:09:39.968432: TOTAL: 12,209 documents, 0 errors
+2025-09-08 14:09:39.968432: >> Successfully copied 12,209 documents to MongoDB!
+2025-09-08 14:09:39.968432: 
+Full log saved to: C:\Users\guanj\OneDrive\Desktop\SEM\results\03_mongo_normalized_load_log.txt

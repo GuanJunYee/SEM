@@ -1,6 +1,0 @@
-MySQL row count in `retail_sales`: 12575
-Dropped existing collection `sales` in DB `retail_store` (if existed).
-Inserted docs: 12575
-MongoDB row count in `retail_store.sales`: 12575
-Distinct Payment Method in Mongo: ['Cash', 'Credit Card', 'Digital Wallet']
-Mongo migration complete.
