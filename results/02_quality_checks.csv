@@ -1,7 +1,0 @@
-,result
-no_nulls_Item,True
-no_nulls_PricePerUnit,True
-no_nulls_Quantity,True
-no_nulls_TotalSpent,True
-DiscountApplied_is_bool,True
-TransactionDate_is_datetime,True
