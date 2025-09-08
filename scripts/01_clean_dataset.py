@@ -1,5 +1,5 @@
 """
-02_clean_dataset.py
+01_clean_dataset.py
 Enhanced data cleaning using smart recovery logic:
 - Mathematical recovery of missing values using business relationships
 - Category-aware item inference using historical patterns
@@ -212,7 +212,7 @@ log(f"  After: {missing_after.sum():,} missing values")
 log(f"  Reduction: {missing_before.sum() - missing_after.sum():,} values recovered/filled")
 
 # Save log
-log_file = RESULTS / "02_cleaning_log.txt"
+log_file = RESULTS / "01_cleaning_log.txt"
 with open(log_file, "w") as f:
     f.write("\n".join(log_lines))
 log(f"[OK] Saved log: {log_file.name}")
@@ -224,7 +224,7 @@ checks = pd.DataFrame({
     "missing_after": missing_after.values,
     "reduction": missing_before.values - missing_after.values
 })
-quality_file = RESULTS / "02_quality_checks.csv"
+quality_file = RESULTS / "01_quality_checks.csv"
 checks.to_csv(quality_file, index=False)
 log(f"[OK] Saved quality checks: {quality_file.name}")
 

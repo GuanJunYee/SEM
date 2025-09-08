@@ -1,5 +1,5 @@
 """
-01_explore_dataset.py
+00_explore_dataset.py
 Explores the raw dataset and writes findings to results/.
 """
 
@@ -29,7 +29,7 @@ print(df.describe())
 
 # ---------- files to results/ ----------
 # 1) full info + missing summary as a text report
-report_path = RESULTS / "01_explore_report.txt"
+report_path = RESULTS / "00_explore_report.txt"
 with open(report_path, "w", encoding="utf-8") as f:
     f.write("== Dataset Overview ==\n")
     f.write(f"Shape: {df.shape}\n\n")
@@ -55,8 +55,8 @@ print(f"[saved] {report_path}")
 (df.isnull().sum()
    .rename("missing_count")
    .to_frame()
-   .to_csv(RESULTS / "01_missing_counts.csv"))
-df.describe().to_csv(RESULTS / "01_numeric_summary.csv")
-print(f"[saved] {RESULTS / '01_missing_counts.csv'}")
-print(f"[saved] {RESULTS / '01_numeric_summary.csv'}")
+   .to_csv(RESULTS / "00_missing_counts.csv"))
+df.describe().to_csv(RESULTS / "00_numeric_summary.csv")
+print(f"[saved] {RESULTS / '00_missing_counts.csv'}")
+print(f"[saved] {RESULTS / '00_numeric_summary.csv'}")
 
