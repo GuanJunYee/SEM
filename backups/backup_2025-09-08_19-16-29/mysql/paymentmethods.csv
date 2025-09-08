@@ -1,0 +1,4 @@
+PaymentMethodID,PaymentMethodName,CreatedAt,UpdatedAt
+1,Cash,2025-09-08 14:22:16,2025-09-08 14:22:16
+2,Credit Card,2025-09-08 14:22:16,2025-09-08 14:22:16
+3,Digital Wallet,2025-09-08 14:22:16,2025-09-08 14:22:16

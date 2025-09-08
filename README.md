@@ -49,7 +49,14 @@ SEM/
 │   ├── 01_data_pipeline_main.py            # Enhanced data cleaning
 │   ├── 02_mysql_migration_normalized.py    # MySQL migration
 │   ├── 03_mongodb_migration_normalized.py  # MongoDB migration
-│   └── 04_data_validation_normalized.py    # Comprehensive validation
+│   ├── 04_data_validation_normalized.py    # Comprehensive validation
+│   └── 05_backup_restore.py                # Enterprise backup & recovery system
+│
+├── backups/                                 # Timestamped database backups
+│   └── backup_YYYY-MM-DD_HH-MM-SS/         # Individual backup directories
+│       ├── backup_manifest.json            # Backup metadata
+│       ├── mysql/                          # MySQL table exports (CSV)
+│       └── mongodb/                        # MongoDB collection exports (JSON)
 │
 ├── results/                                 # Generated reports & logs
 │   ├── 01_explore_report.txt
@@ -58,6 +65,7 @@ SEM/
 │   ├── 03_mysql_normalized_load_log.txt
 │   ├── 04_mongo_normalized_load_log.txt
 │   ├── 05_validation_report_normalized.txt
+│   ├── 05_backup_restore.log               # Backup operation logs
 │   └── migration_audit.log
 │
 ├── README.md                               # This documentation
@@ -90,12 +98,20 @@ GRANT ALL PRIVILEGES ON retail_db.* TO 'retail_user'@'localhost';
 # Navigate to project directory
 cd "C:\Users\user\Desktop\New folder\SEM"
 
-# Run complete pipeline in sequence
-python scripts\00_data_exploration.py      # Data analysis
-python scripts\01_data_pipeline_main.py    # Data cleaning & normalization
-python scripts\02_mysql_migration_normalized.py    # MySQL migration
-python scripts\03_mongodb_migration_normalized.py  # MongoDB migration
-python scripts\04_data_validation_normalized.py    # Final validation
+# Option 1: Manual execution with backup safety
+python scripts\05_backup_restore.py backup                 # Create backup first
+python scripts\00_data_exploration.py                      # Data analysis
+python scripts\01_data_pipeline_main.py                    # Data cleaning & normalization
+python scripts\02_mysql_migration_normalized.py            # MySQL migration
+python scripts\03_mongodb_migration_normalized.py          # MongoDB migration
+python scripts\04_data_validation_normalized.py            # Final validation
+
+# Option 2: Integrated pipeline with backup protection
+python scripts\01_data_pipeline_main.py --backup --mysql --mongodb --validate
+
+# Option 3: Emergency restore (if needed)
+python scripts\05_backup_restore.py list                   # List available backups
+python scripts\05_backup_restore.py restore --backup-path "backups/backup_YYYY-MM-DD_HH-MM-SS"
 ```
 
 ## 📋 Detailed Script Documentation
@@ -314,6 +330,70 @@ Transactions (11,971 records)
 **Generated Files**:
 - `results/05_validation_report_normalized.txt` - Complete validation report
 
+### 6. Enterprise Backup & Recovery (`05_backup_restore.py`)
+
+**Purpose**: Provide enterprise-grade backup and restore capabilities for safe database migration operations.
+
+**Enterprise Features**:
+- **Complete Database Backup**: Full export of MySQL tables (CSV) and MongoDB collections (JSON)
+- **Timestamped Organization**: Each backup gets unique timestamp directory for tracking
+- **Backup Validation**: Generates manifests and integrity summaries for verification
+- **Selective Restore**: Restore individual databases or complete backup sets
+- **Foreign Key Handling**: Smart restore process that handles MySQL constraints properly
+- **Integration Support**: Seamless integration with pipeline scripts
+
+**Backup Operations**:
+```bash
+# Create complete backup
+python scripts/05_backup_restore.py backup
+
+# List all available backups
+python scripts/05_backup_restore.py list
+
+# Restore from specific backup
+python scripts/05_backup_restore.py restore --backup-path "backups/backup_2025-09-08_19-16-29"
+```
+
+**Backup Structure**:
+```
+backups/backup_2025-09-08_19-16-29/
+├── backup_manifest.json                    # Backup metadata & summary
+├── mysql/
+│   ├── backup_summary.json                # MySQL backup details
+│   ├── categories.csv                     # Table exports
+│   ├── customers.csv
+│   ├── items.csv
+│   ├── locations.csv
+│   ├── paymentmethods.csv
+│   └── transactions.csv
+└── mongodb/
+    ├── backup_summary.json                # MongoDB backup details
+    ├── categories.json                    # Collection exports
+    ├── customers.json
+    ├── items.json
+    ├── locations.json
+    ├── payment_methods.json
+    └── transactions.json
+```
+
+**Pipeline Integration**:
+```bash
+# Enhanced pipeline with backup safety
+python scripts/01_data_pipeline_main.py --backup           # Creates backup before processing
+python scripts/01_data_pipeline_main.py --backup --mysql   # Backup + MySQL migration
+python scripts/01_data_pipeline_main.py --backup --mysql --mongodb --validate  # Complete workflow
+```
+
+**Professional Values Demonstrated**:
+- **Responsibility**: Complete data protection before risky operations
+- **Data Integrity**: Full backup validation and verification
+- **Risk Management**: Rollback capability for failed migrations
+- **Compliance**: Enterprise-grade backup documentation and audit trails
+
+**Generated Files**:
+- `backups/backup_YYYY-MM-DD_HH-MM-SS/` - Timestamped backup directories
+- `results/05_backup_restore.log` - Backup operation logs
+
 ## 🎯 Key Features
 
 ### Data Quality & Recovery
@@ -327,6 +407,7 @@ Transactions (11,971 records)
 - **Per-Batch Reconciliation**: Real-time data verification during migration
 - **Enhanced Audit Logging**: Complete structured audit trails
 - **Error Handling**: Comprehensive error tracking and reporting
+- **Backup & Recovery**: Enterprise-grade data protection with rollback capability
 
 ### Database Architecture
 - **Dual Database Support**: Synchronized MySQL and MongoDB databases
@@ -345,6 +426,7 @@ Transactions (11,971 records)
 - **Comprehensive Documentation**: Detailed logging and reporting
 - **Modular Design**: Independent, reusable script components
 - **Production-Ready**: Enterprise-grade reliability and monitoring
+- **Backup Management**: Timestamped backup organization with integrity validation
 
 ## 📊 Performance Metrics
 
@@ -393,8 +475,9 @@ AUDIT_LOGGING = True       # Enhanced logging
 # Data exploration only
 python scripts\00_data_exploration.py
 
-# Data cleaning only
+# Data cleaning only (with optional backup)
 python scripts\01_data_pipeline_main.py
+python scripts\01_data_pipeline_main.py --backup          # With backup protection
 
 # MySQL migration only
 python scripts\02_mysql_migration_normalized.py
@@ -404,6 +487,11 @@ python scripts\03_mongodb_migration_normalized.py
 
 # Validation only
 python scripts\04_data_validation_normalized.py
+
+# Backup operations
+python scripts\05_backup_restore.py backup                # Create backup
+python scripts\05_backup_restore.py list                  # List backups
+python scripts\05_backup_restore.py restore --backup-path <path>  # Restore backup
 ```
 
 ### Dry Run Mode
@@ -428,7 +516,8 @@ results/
 ├── 01_enhanced_pipeline.log         # Data cleaning details
 ├── 03_mysql_normalized_load_log.txt # MySQL migration log
 ├── 04_mongo_normalized_load_log.txt # MongoDB migration log
-└── 05_validation_report_normalized.txt # Final validation
+├── 05_validation_report_normalized.txt # Final validation
+└── 05_backup_restore.log            # Backup & restore operations
 ```
 
 ### Common Issues & Solutions
@@ -451,6 +540,20 @@ mongosh --host localhost:27017
 BATCH_SIZE = 500  # Reduce from default 1000
 ```
 
+**Issue**: Need to rollback after failed migration
+```bash
+# Solution: Use backup restore functionality
+python scripts\05_backup_restore.py list                   # Find backup
+python scripts\05_backup_restore.py restore --backup-path "backups/backup_YYYY-MM-DD_HH-MM-SS"
+```
+
+**Issue**: Backup operation fails
+```bash
+# Solution: Check database connectivity and permissions
+# Verify MySQL: mysql -u retail_user -p retail_db
+# Verify MongoDB: mongosh --host localhost:27017
+```
+
 ## 🏆 Production Readiness
 
 This pipeline demonstrates enterprise-grade features suitable for production environments:
@@ -461,6 +564,7 @@ This pipeline demonstrates enterprise-grade features suitable for production env
 - ✅ **Scalability**: Batch processing and configurable parameters
 - ✅ **Maintainability**: Modular design and comprehensive documentation
 - ✅ **Compliance**: Data integrity and referential consistency
+- ✅ **Business Continuity**: Enterprise backup and recovery capabilities
 
 ## 📚 Additional Documentation
 
