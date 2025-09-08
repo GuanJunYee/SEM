@@ -1,5 +1,5 @@
 """
-04_migrate_to_mongo_normalized.py
+03_mongodb_migration_normalized.py
 Migrates data from normalized MySQL structure to MongoDB.
 Supports both normalized and denormalized document structures:
 
@@ -8,8 +8,6 @@ Supports both normalized and denormalized document structures:
 
 2. Denormalized: Embedded documents for better MongoDB performance
    - customers, transactions_with_details (with embedded item, category, payment, location data)
-
-Similar to the SEM Data Migration Demo approach.
 """
 
 import os
@@ -26,7 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "results"
 RESULTS.mkdir(exist_ok=True)
 
-LOG = RESULTS / "04_mongo_normalized_load_log.txt"
+LOG = RESULTS / "03_mongo_normalized_load_log.txt"
 
 def log(msg: str):
     print(msg)
@@ -62,14 +60,14 @@ def validate_connections():
         with mysql_engine.connect() as conn:
             result = conn.execute(text("SELECT 1")).scalar()
             if result == 1:
-                log("✓ MySQL connection validated")
+                log("[OK] MySQL connection validated")
             else:
                 raise Exception("MySQL connection test failed")
         
         # Test MongoDB connection
         mongo_client = MongoClient(MONGO_URI)
         mongo_client.server_info()  # This will raise an exception if connection fails
-        log("✓ MongoDB connection validated")
+        log("[OK] MongoDB connection validated")
         
         return mysql_engine, mongo_client
         
@@ -475,7 +473,7 @@ def display_migration_summary(results, dry_run=False):
         total_copied += copied
         total_errors += errors
         
-        status = "✓" if errors == 0 else "✗"
+        status = "[OK]" if errors == 0 else "[ERROR]"
         log(f"{status} {collection}: {copied:,} documents, {errors} errors")
     
     log("-" * 40)

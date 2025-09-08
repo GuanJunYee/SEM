@@ -1,0 +1,67 @@
+[2025-09-08 13:35:36] DATA PIPELINE WITH SMART RECOVERY
+[2025-09-08 13:35:36] ============================================================
+[2025-09-08 13:35:36] STEP 1: DATA CLEANING WITH SMART RECOVERY
+[2025-09-08 13:35:36] ============================================================
+[2025-09-08 13:35:36] Loaded raw data: (12575, 11) records
+[2025-09-08 13:35:36] Missing values before cleaning: 7229 total
+[2025-09-08 13:35:36] 
+=== PHASE 1: IDENTIFYING UNRECOVERABLE ROWS ===
+[2025-09-08 13:35:36] Unrecoverable rows (missing both Quantity & Total): 604
+[2025-09-08 13:35:36] [OK] Saved 604 dropped rows to: 01_dropped_rows_report.csv
+[2025-09-08 13:35:36] Working with 11971 recoverable rows
+[2025-09-08 13:35:36] 
+=== PHASE 2: SMART RECOVERY ===
+[2025-09-08 13:35:36] 1. Standardizing Discount Applied...
+[2025-09-08 13:35:36] [OK] Standardized to boolean; filled 3988 missing with False
+[2025-09-08 13:35:36] 2. Recovering missing prices using Total / Quantity...
+[2025-09-08 13:35:36] [OK] Recovered 609 prices
+[2025-09-08 13:35:36] 3. Recovering missing quantities using Total / Price...
+[2025-09-08 13:35:36] 4. Recovering missing totals using Price x Quantity...
+[2025-09-08 13:35:36] 5. Inferring missing items from Category + Price...
+[2025-09-08 13:35:37] [OK] Inferred 609 items from Category + Price
+[2025-09-08 13:35:37] 
+=== PHASE 3: FINAL CALCULATIONS ===
+[2025-09-08 13:35:37] [OK] Standardized Transaction Date to datetime
+[2025-09-08 13:35:37] Ensuring calculation consistency...
+[2025-09-08 13:35:37] [OK] All critical columns now complete!
+[2025-09-08 13:35:37] [OK] Saved cleaned data: retail_store_sales_clean.csv | Shape=(11971, 11)
+[2025-09-08 13:35:37] 
+=== CLEANING SUMMARY ===
+[2025-09-08 13:35:37] Initial dataset rows: 12,575
+[2025-09-08 13:35:37] Rows dropped (unrecoverable): 604
+[2025-09-08 13:35:37] Final dataset rows: 11,971
+[2025-09-08 13:35:37] Data retention: 95.2%
+[2025-09-08 13:35:37] 
+Values RECOVERED (using business logic):
+[2025-09-08 13:35:37]   prices: 609
+[2025-09-08 13:35:37]   quantities: 0
+[2025-09-08 13:35:37]   totals: 0
+[2025-09-08 13:35:37]   items: 609
+[2025-09-08 13:35:37] 
+Values IMPUTED (using defaults):
+[2025-09-08 13:35:37]   discount_applied: 3,988
+[2025-09-08 13:35:37] 
+Missing values reduction:
+[2025-09-08 13:35:37]   Before: 7,229 missing values
+[2025-09-08 13:35:37]   After: 0 missing values
+[2025-09-08 13:35:37]   Reduction: 7,229 values recovered/filled
+[2025-09-08 13:35:37] 
+STEP 2: DATA NORMALIZATION
+[2025-09-08 13:35:37] ========================================
+[2025-09-08 13:35:37] Created Categories table: 8 records → saved to normalized/categories.csv
+[2025-09-08 13:35:37] Created Customers table: 25 records → saved to normalized/customers.csv
+[2025-09-08 13:35:37] Created PaymentMethods table: 3 records → saved to normalized/payment_methods.csv
+[2025-09-08 13:35:37] Created Locations table: 2 records → saved to normalized/locations.csv
+[2025-09-08 13:35:37] Created Items table: 200 records → saved to normalized/items.csv
+[2025-09-08 13:35:37] Created Transactions table: 11971 records → saved to normalized/transactions_normalized.csv
+[2025-09-08 13:35:37] 
+Normalization complete! Created 6 tables
+[2025-09-08 13:35:37] 
+>> READY FOR MYSQL: Normalized tables saved to C:\Users\guanj\OneDrive\Desktop\SEM\dataset
+[2025-09-08 13:35:37]    Use 02_mysql_migration_normalized.py to load into MySQL
+[2025-09-08 13:35:37] 
+>> MongoDB: Use --denormalize-mongo flag to create denormalized data
+[2025-09-08 13:35:37] 
+>> SUCCESS: Pipeline completed!
+[2025-09-08 13:35:37]    Log saved to: C:\Users\guanj\OneDrive\Desktop\SEM\results\01_pipeline.log
+[2025-09-08 13:35:37]    Dropped rows report: C:\Users\guanj\OneDrive\Desktop\SEM\results\01_dropped_rows_report.csv

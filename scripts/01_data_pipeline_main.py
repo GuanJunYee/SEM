@@ -1,9 +1,7 @@
 """
 01_data_pipeline_main.py
-Enhanced SEM Demo Style Data Processing Pipeline with Smart Recovery Logic
+Data Processing Pipeline with Smart Recovery Logic
 Clean → Normalize → MySQL (default) + MongoDB (with denormalization option)
-
-Enhanced with smart recovery logic from 02_clean_dataset.py:
 - Mathematical recovery of missing values using business relationships
 - Category-aware item inference using historical patterns
 - Drops only truly unrecoverable rows
@@ -24,7 +22,7 @@ import argparse
 # Setup paths
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "dataset"
-NORMALIZED_DIR = DATA_DIR / "normalized"  # New: Folder for normalized CSV files
+NORMALIZED_DIR = DATA_DIR / "normalized"  # Folder for normalized CSV files
 RESULTS_DIR = ROOT / "results"
 RESULTS_DIR.mkdir(exist_ok=True)
 NORMALIZED_DIR.mkdir(exist_ok=True)  # Create normalized folder
@@ -33,7 +31,7 @@ NORMALIZED_DIR.mkdir(exist_ok=True)  # Create normalized folder
 RAW_CSV = DATA_DIR / "retail_store_sales.csv"
 CLEAN_CSV = DATA_DIR / "retail_store_sales_clean.csv"
 DROPPED_ROWS_CSV = RESULTS_DIR / "01_dropped_rows_report.csv"
-LOG_FILE = RESULTS_DIR / "01_enhanced_pipeline.log"
+LOG_FILE = RESULTS_DIR / "01_pipeline.log"
 
 log_lines = []
 
@@ -45,8 +43,8 @@ def log(message):
     log_lines.append(log_msg)
 
 def clean_data():
-    """Step 1: Enhanced data cleaning with smart recovery logic"""
-    log("STEP 1: ENHANCED DATA CLEANING WITH SMART RECOVERY")
+    """Step 1: Data cleaning with smart recovery logic"""
+    log("STEP 1: DATA CLEANING WITH SMART RECOVERY")
     log("=" * 60)
     
     # Load raw data
@@ -245,7 +243,7 @@ def clean_data():
     log(f"[OK] Saved cleaned data: {CLEAN_CSV.name} | Shape={df.shape}")
     
     # Generate detailed report
-    log("\n=== ENHANCED CLEANING SUMMARY ===")
+    log("\n=== CLEANING SUMMARY ===")
     log(f"Initial dataset rows: {cleaning_report['initial_rows']:,}")
     log(f"Rows dropped (unrecoverable): {cleaning_report['rows_dropped']:,}")
     log(f"Final dataset rows: {len(df):,}")
@@ -267,7 +265,7 @@ def clean_data():
     return df
 
 def normalize_data(df):
-    """Step 2: Create normalized tables (SEM Demo pattern)"""
+    """Step 2: Create normalized tables"""
     log("\nSTEP 2: DATA NORMALIZATION")
     log("=" * 40)
     
@@ -392,20 +390,20 @@ def denormalize_for_mongo(normalized_tables):
     return mongo_df
 
 def main():
-    """Enhanced SEM Demo pipeline with smart recovery logic"""
-    parser = argparse.ArgumentParser(description="Enhanced SEM Demo Style Data Pipeline with Smart Recovery")
+    """Data pipeline with smart recovery logic"""
+    parser = argparse.ArgumentParser(description="Data Pipeline with Smart Recovery")
     parser.add_argument('--denormalize-mongo', action='store_true', 
-                       help='Create denormalized data for MongoDB (like SEM Demo)')
+                       help='Create denormalized data for MongoDB')
     parser.add_argument('--skip-cleaning', action='store_true',
                        help='Skip cleaning step (use existing clean data)')
     
     args = parser.parse_args()
     
-    log("ENHANCED SEM DEMO STYLE DATA PIPELINE WITH SMART RECOVERY")
+    log("DATA PIPELINE WITH SMART RECOVERY")
     log("=" * 60)
     
     try:
-        # Step 1: Enhanced clean data (unless skipped)
+        # Step 1: Clean data (unless skipped)
         if args.skip_cleaning and CLEAN_CSV.exists():
             log("Skipping cleaning - using existing clean data")
             df_clean = pd.read_csv(CLEAN_CSV)
@@ -427,7 +425,7 @@ def main():
         else:
             log(f"\n>> MongoDB: Use --denormalize-mongo flag to create denormalized data")
         
-        log(f"\n>> SUCCESS: Enhanced pipeline completed!")
+        log(f"\n>> SUCCESS: Pipeline completed!")
         log(f"   Log saved to: {LOG_FILE}")
         log(f"   Dropped rows report: {DROPPED_ROWS_CSV}")
         
