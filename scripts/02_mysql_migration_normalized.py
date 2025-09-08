@@ -294,7 +294,7 @@ def load_reference_tables(engine):
         with engine.connect() as conn:
             count = conn.execute(text("SELECT COUNT(*) FROM `Categories`")).scalar()
             log(f"Categories loaded: {count}")
-            reconcile_batch_data(engine, "Categories", len(categories_df), " (categories migration)")
+            reconcile_batch_data(engine, "Categories", len(categories_df), " (categories migration)", is_final_check=True)
     
     # 2. Load Locations (with idempotent writes)
     if LOCATIONS_CSV.exists():
@@ -314,7 +314,7 @@ def load_reference_tables(engine):
         with engine.connect() as conn:
             count = conn.execute(text("SELECT COUNT(*) FROM `Locations`")).scalar()
             log(f"Locations loaded: {count}")
-            reconcile_batch_data(engine, "Locations", len(locations_df), " (locations migration)")
+            reconcile_batch_data(engine, "Locations", len(locations_df), " (locations migration)", is_final_check=True)
     
     # 3. Load Payment Methods (with idempotent writes)
     if PAYMENT_METHODS_CSV.exists():
@@ -334,7 +334,7 @@ def load_reference_tables(engine):
         with engine.connect() as conn:
             count = conn.execute(text("SELECT COUNT(*) FROM `PaymentMethods`")).scalar()
             log(f"Payment methods loaded: {count}")
-            reconcile_batch_data(engine, "PaymentMethods", len(payment_methods_df), " (payment methods migration)")
+            reconcile_batch_data(engine, "PaymentMethods", len(payment_methods_df), " (payment methods migration)", is_final_check=True)
     
     # 4. Load Customers (with idempotent writes)
     if CUSTOMERS_CSV.exists():
@@ -354,7 +354,7 @@ def load_reference_tables(engine):
         with engine.connect() as conn:
             count = conn.execute(text("SELECT COUNT(*) FROM `Customers`")).scalar()
             log(f"Customers loaded: {count}")
-            reconcile_batch_data(engine, "Customers", len(customers_df), " (customers migration)")
+            reconcile_batch_data(engine, "Customers", len(customers_df), " (customers migration)", is_final_check=True)
 
 def load_items_table(engine):
     """Load items table (depends on Categories) with idempotent writes"""
@@ -397,7 +397,7 @@ def load_items_table(engine):
     with engine.connect() as conn:
         count = conn.execute(text("SELECT COUNT(*) FROM `Items`")).scalar()
         log(f"Items loaded: {count}")
-        reconcile_batch_data(engine, "Items", len(items_df), " (items migration)")
+        reconcile_batch_data(engine, "Items", len(items_df), " (items migration)", is_final_check=True)
 
 def load_transactions_table(engine):
     """Load transactions table (depends on all other tables)"""
@@ -466,8 +466,8 @@ def load_transactions_table(engine):
             
             log(f"Loaded batch {start_idx+1}-{end_idx} ({total_loaded} successful)")
             
-            # Perform batch reconciliation
-            reconcile_batch_data(engine, "Transactions", total_loaded, f" (batch {start_idx+1}-{end_idx})")
+            # Skip batch reconciliation during loading to avoid transaction isolation issues
+            # Final reconciliation will be performed after all batches are complete
     
     # Final reconciliation check
     with engine.connect() as conn:
@@ -476,25 +476,40 @@ def load_transactions_table(engine):
         
         # Final data integrity check
         expected_total = len(transactions_df)
-        if reconcile_batch_data(engine, "Transactions", expected_total, " (final check)"):
+        if reconcile_batch_data(engine, "Transactions", expected_total, " (final check)", is_final_check=True):
             log("✓ All transaction data successfully migrated and verified")
         else:
             log(f"⚠ Warning: Expected {expected_total} transactions, but database has {count}")
 
 
-def reconcile_batch_data(engine, table_name, expected_count, batch_info=""):
-    """Perform per-batch data reconciliation"""
+def reconcile_batch_data(engine, table_name, expected_count, batch_info="", is_final_check=False):
+    """Perform per-batch data reconciliation with improved logic"""
     
     with engine.connect() as conn:
         actual_count = conn.execute(text(f"SELECT COUNT(*) FROM `{table_name}`")).scalar()
         
-        if actual_count >= expected_count:
+        # For batch checks during processing, use >= to account for timing issues
+        # For final checks, use exact matching
+        if is_final_check:
+            success = actual_count == expected_count
+        else:
+            # During batch processing, we expect the count to be at least the expected amount
+            # This accounts for transaction timing and concurrent operations
+            success = actual_count >= expected_count
+        
+        if success:
             log(f"✓ Batch reconciliation passed for {table_name}{batch_info}: Expected {expected_count}, Got {actual_count}")
             audit_log("RECONCILIATION_SUCCESS", f"Table {table_name}{batch_info}: Expected {expected_count}, Got {actual_count}")
             return True
         else:
-            log(f"✗ Batch reconciliation FAILED for {table_name}{batch_info}: Expected {expected_count}, Got {actual_count}")
-            audit_log("RECONCILIATION_FAILED", f"Table {table_name}{batch_info}: Expected {expected_count}, Got {actual_count}")
+            # Only log as failed if we're significantly off or it's a final check
+            if is_final_check or actual_count < (expected_count * 0.9):  # Allow 10% tolerance during processing
+                log(f"✗ Batch reconciliation FAILED for {table_name}{batch_info}: Expected {expected_count}, Got {actual_count}")
+                audit_log("RECONCILIATION_FAILED", f"Table {table_name}{batch_info}: Expected {expected_count}, Got {actual_count}")
+            else:
+                # Minor discrepancy during processing - log as warning instead of failure
+                log(f"⚠ Batch reconciliation minor variance for {table_name}{batch_info}: Expected {expected_count}, Got {actual_count} (within tolerance)")
+                audit_log("RECONCILIATION_WARNING", f"Table {table_name}{batch_info}: Expected {expected_count}, Got {actual_count} (processing variance)")
             return False
 
 def audit_log(event_type, message, extra_data=None):
