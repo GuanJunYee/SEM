@@ -1,9 +1,0 @@
-pandas
-python-dotenv
-sqlalchemy
-pymysql
-pymongo
-
-# Enhanced features (SEM Demo style)
-matplotlib
-openpyxl
