@@ -1,0 +1,44 @@
+[2025-09-08 19:33:50] DATABASE BACKUP AND RESTORE TOOL
+[2025-09-08 19:33:50] ============================================================
+[2025-09-08 19:33:50] Started at: 2025-09-08 19:33:50.466535
+[2025-09-08 19:33:50] MySQL database: retail_db
+[2025-09-08 19:33:50] MongoDB database: retail_store
+[2025-09-08 19:33:50] ============================================================
+[2025-09-08 19:33:50] STARTING RESTORE FROM BACKUP: backup_2025-09-08_19-16-29
+[2025-09-08 19:33:50] ============================================================
+[2025-09-08 19:33:50] Starting MySQL database restore...
+[2025-09-08 19:33:50] Restoring table: categories
+[2025-09-08 19:33:50] [OK] Restored categories: 8 records
+[2025-09-08 19:33:50] Restoring table: customers
+[2025-09-08 19:33:50] [OK] Restored customers: 25 records
+[2025-09-08 19:33:50] Restoring table: items
+[2025-09-08 19:33:50] [OK] Restored items: 200 records
+[2025-09-08 19:33:50] Restoring table: locations
+[2025-09-08 19:33:50] [OK] Restored locations: 2 records
+[2025-09-08 19:33:50] Restoring table: paymentmethods
+[2025-09-08 19:33:50] [OK] Restored paymentmethods: 3 records
+[2025-09-08 19:33:50] Restoring table: transactions
+[2025-09-08 19:33:51] [OK] Restored transactions: 11971 records
+[2025-09-08 19:33:51] [OK] MySQL restore completed successfully
+[2025-09-08 19:33:51] Starting MongoDB database restore...
+[2025-09-08 19:33:51] Restoring collection: categories
+[2025-09-08 19:33:51] [OK] Restored categories: 8 documents
+[2025-09-08 19:33:51] Restoring collection: customers
+[2025-09-08 19:33:51] [OK] Restored customers: 25 documents
+[2025-09-08 19:33:51] Restoring collection: items
+[2025-09-08 19:33:51] [OK] Restored items: 200 documents
+[2025-09-08 19:33:51] Restoring collection: locations
+[2025-09-08 19:33:51] [OK] Restored locations: 2 documents
+[2025-09-08 19:33:51] Restoring collection: payment_methods
+[2025-09-08 19:33:51] [OK] Restored payment_methods: 3 documents
+[2025-09-08 19:33:51] Restoring collection: transactions
+[2025-09-08 19:33:51] [OK] Restored transactions: 11971 documents
+[2025-09-08 19:33:51] [OK] MongoDB restore completed successfully
+[2025-09-08 19:33:51] ============================================================
+[2025-09-08 19:33:51] RESTORE COMPLETED SUCCESSFULLY
+[2025-09-08 19:33:51] ============================================================
+[2025-09-08 19:33:51] 
+[SUCCESS] Database restored from: backups/backup_2025-09-08_19-16-29
+[2025-09-08 19:33:51] 
+Operation completed at: 2025-09-08 19:33:51.616490
+[2025-09-08 19:33:51] Log saved to: C:\Users\guanj\OneDrive\Desktop\SEM\results\05_backup_restore.log

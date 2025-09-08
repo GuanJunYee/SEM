@@ -1,0 +1,71 @@
+{
+  "backup_timestamp": "2025-09-08T19:16:30.366758",
+  "backup_directory": "C:\\Users\\guanj\\OneDrive\\Desktop\\SEM\\backups\\backup_2025-09-08_19-16-29",
+  "mysql_database": "retail_db",
+  "mongodb_database": "retail_store",
+  "mysql_summary": {
+    "categories": {
+      "records": 8,
+      "file_size": 513,
+      "status": "success"
+    },
+    "customers": {
+      "records": 25,
+      "file_size": 1257,
+      "status": "success"
+    },
+    "items": {
+      "records": 200,
+      "file_size": 12699,
+      "status": "success"
+    },
+    "locations": {
+      "records": 2,
+      "file_size": 147,
+      "status": "success"
+    },
+    "paymentmethods": {
+      "records": 3,
+      "file_size": 216,
+      "status": "success"
+    },
+    "transactions": {
+      "records": 11971,
+      "file_size": 1065542,
+      "status": "success"
+    }
+  },
+  "mongodb_summary": {
+    "customers": {
+      "documents": 25,
+      "file_size": 2928,
+      "status": "success"
+    },
+    "payment_methods": {
+      "documents": 3,
+      "file_size": 461,
+      "status": "success"
+    },
+    "locations": {
+      "documents": 2,
+      "file_size": 291,
+      "status": "success"
+    },
+    "items": {
+      "documents": 200,
+      "file_size": 47541,
+      "status": "success"
+    },
+    "transactions": {
+      "documents": 11971,
+      "file_size": 4197796,
+      "status": "success"
+    },
+    "categories": {
+      "documents": 8,
+      "file_size": 1215,
+      "status": "success"
+    }
+  },
+  "backup_status": "completed"
+}

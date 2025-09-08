@@ -1,0 +1,1802 @@
+[
+  {
+    "_id": "4",
+    "item_name": "Item_16_BEV",
+    "price_per_unit": 27.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "17",
+    "item_name": "Item_7_BEV",
+    "price_per_unit": 14.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "29",
+    "item_name": "Item_25_BEV",
+    "price_per_unit": 41.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "32",
+    "item_name": "Item_11_BEV",
+    "price_per_unit": 20.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "34",
+    "item_name": "Item_22_BEV",
+    "price_per_unit": 36.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "37",
+    "item_name": "Item_8_BEV",
+    "price_per_unit": 15.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "56",
+    "item_name": "Item_4_BEV",
+    "price_per_unit": 9.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "68",
+    "item_name": "Item_14_BEV",
+    "price_per_unit": 24.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "84",
+    "item_name": "Item_23_BEV",
+    "price_per_unit": 38.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "85",
+    "item_name": "Item_19_BEV",
+    "price_per_unit": 32.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "86",
+    "item_name": "Item_20_BEV",
+    "price_per_unit": 33.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "88",
+    "item_name": "Item_6_BEV",
+    "price_per_unit": 12.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "99",
+    "item_name": "Item_21_BEV",
+    "price_per_unit": 35.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "102",
+    "item_name": "Item_2_BEV",
+    "price_per_unit": 6.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "124",
+    "item_name": "Item_12_BEV",
+    "price_per_unit": 21.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "132",
+    "item_name": "Item_3_BEV",
+    "price_per_unit": 8.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "134",
+    "item_name": "Item_1_BEV",
+    "price_per_unit": 5.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "143",
+    "item_name": "Item_10_BEV",
+    "price_per_unit": 18.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "150",
+    "item_name": "Item_17_BEV",
+    "price_per_unit": 29.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "162",
+    "item_name": "Item_24_BEV",
+    "price_per_unit": 39.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "165",
+    "item_name": "Item_18_BEV",
+    "price_per_unit": 30.5,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "172",
+    "item_name": "Item_15_BEV",
+    "price_per_unit": 26.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "182",
+    "item_name": "Item_9_BEV",
+    "price_per_unit": 17.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "190",
+    "item_name": "Item_13_BEV",
+    "price_per_unit": 23.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "191",
+    "item_name": "Item_5_BEV",
+    "price_per_unit": 11.0,
+    "category_id": 1,
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "3",
+    "item_name": "Item_12_BUT",
+    "price_per_unit": 21.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "9",
+    "item_name": "Item_22_BUT",
+    "price_per_unit": 36.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "10",
+    "item_name": "Item_3_BUT",
+    "price_per_unit": 8.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "22",
+    "item_name": "Item_20_BUT",
+    "price_per_unit": 33.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "33",
+    "item_name": "Item_23_BUT",
+    "price_per_unit": 38.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "36",
+    "item_name": "Item_24_BUT",
+    "price_per_unit": 39.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "41",
+    "item_name": "Item_16_BUT",
+    "price_per_unit": 27.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "51",
+    "item_name": "Item_2_BUT",
+    "price_per_unit": 6.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "73",
+    "item_name": "Item_21_BUT",
+    "price_per_unit": 35.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "76",
+    "item_name": "Item_8_BUT",
+    "price_per_unit": 15.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "92",
+    "item_name": "Item_18_BUT",
+    "price_per_unit": 30.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "101",
+    "item_name": "Item_13_BUT",
+    "price_per_unit": 23.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "103",
+    "item_name": "Item_7_BUT",
+    "price_per_unit": 14.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "121",
+    "item_name": "Item_25_BUT",
+    "price_per_unit": 41.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "123",
+    "item_name": "Item_1_BUT",
+    "price_per_unit": 5.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "135",
+    "item_name": "Item_17_BUT",
+    "price_per_unit": 29.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "147",
+    "item_name": "Item_5_BUT",
+    "price_per_unit": 11.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "153",
+    "item_name": "Item_14_BUT",
+    "price_per_unit": 24.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "155",
+    "item_name": "Item_6_BUT",
+    "price_per_unit": 12.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "174",
+    "item_name": "Item_11_BUT",
+    "price_per_unit": 20.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "177",
+    "item_name": "Item_19_BUT",
+    "price_per_unit": 32.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "183",
+    "item_name": "Item_10_BUT",
+    "price_per_unit": 18.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "186",
+    "item_name": "Item_4_BUT",
+    "price_per_unit": 9.5,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "187",
+    "item_name": "Item_15_BUT",
+    "price_per_unit": 26.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "200",
+    "item_name": "Item_9_BUT",
+    "price_per_unit": 17.0,
+    "category_id": 2,
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "40",
+    "item_name": "Item_16_CEA",
+    "price_per_unit": 27.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "42",
+    "item_name": "Item_5_CEA",
+    "price_per_unit": 11.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "46",
+    "item_name": "Item_15_CEA",
+    "price_per_unit": 26.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "48",
+    "item_name": "Item_24_CEA",
+    "price_per_unit": 39.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "49",
+    "item_name": "Item_22_CEA",
+    "price_per_unit": 36.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "59",
+    "item_name": "Item_20_CEA",
+    "price_per_unit": 33.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "71",
+    "item_name": "Item_7_CEA",
+    "price_per_unit": 14.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "75",
+    "item_name": "Item_25_CEA",
+    "price_per_unit": 41.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "77",
+    "item_name": "Item_10_CEA",
+    "price_per_unit": 18.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "80",
+    "item_name": "Item_21_CEA",
+    "price_per_unit": 35.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "81",
+    "item_name": "Item_8_CEA",
+    "price_per_unit": 15.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "91",
+    "item_name": "Item_2_CEA",
+    "price_per_unit": 6.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "96",
+    "item_name": "Item_13_CEA",
+    "price_per_unit": 23.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "97",
+    "item_name": "Item_6_CEA",
+    "price_per_unit": 12.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "105",
+    "item_name": "Item_14_CEA",
+    "price_per_unit": 24.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "107",
+    "item_name": "Item_18_CEA",
+    "price_per_unit": 30.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "108",
+    "item_name": "Item_11_CEA",
+    "price_per_unit": 20.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "115",
+    "item_name": "Item_19_CEA",
+    "price_per_unit": 32.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "122",
+    "item_name": "Item_4_CEA",
+    "price_per_unit": 9.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "127",
+    "item_name": "Item_9_CEA",
+    "price_per_unit": 17.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "128",
+    "item_name": "Item_1_CEA",
+    "price_per_unit": 5.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "144",
+    "item_name": "Item_17_CEA",
+    "price_per_unit": 29.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "157",
+    "item_name": "Item_12_CEA",
+    "price_per_unit": 21.5,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "166",
+    "item_name": "Item_23_CEA",
+    "price_per_unit": 38.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "179",
+    "item_name": "Item_3_CEA",
+    "price_per_unit": 8.0,
+    "category_id": 3,
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "16",
+    "item_name": "Item_13_EHE",
+    "price_per_unit": 23.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "19",
+    "item_name": "Item_4_EHE",
+    "price_per_unit": 9.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "28",
+    "item_name": "Item_21_EHE",
+    "price_per_unit": 35.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "35",
+    "item_name": "Item_10_EHE",
+    "price_per_unit": 18.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "72",
+    "item_name": "Item_6_EHE",
+    "price_per_unit": 12.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "82",
+    "item_name": "Item_8_EHE",
+    "price_per_unit": 15.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "104",
+    "item_name": "Item_7_EHE",
+    "price_per_unit": 14.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "106",
+    "item_name": "Item_19_EHE",
+    "price_per_unit": 32.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "111",
+    "item_name": "Item_20_EHE",
+    "price_per_unit": 33.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "112",
+    "item_name": "Item_16_EHE",
+    "price_per_unit": 27.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "113",
+    "item_name": "Item_23_EHE",
+    "price_per_unit": 38.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "114",
+    "item_name": "Item_1_EHE",
+    "price_per_unit": 5.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "117",
+    "item_name": "Item_12_EHE",
+    "price_per_unit": 21.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "118",
+    "item_name": "Item_22_EHE",
+    "price_per_unit": 36.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "120",
+    "item_name": "Item_17_EHE",
+    "price_per_unit": 29.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "126",
+    "item_name": "Item_25_EHE",
+    "price_per_unit": 41.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "133",
+    "item_name": "Item_5_EHE",
+    "price_per_unit": 11.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "138",
+    "item_name": "Item_11_EHE",
+    "price_per_unit": 20.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "158",
+    "item_name": "Item_15_EHE",
+    "price_per_unit": 26.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "167",
+    "item_name": "Item_24_EHE",
+    "price_per_unit": 39.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "168",
+    "item_name": "Item_2_EHE",
+    "price_per_unit": 6.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "173",
+    "item_name": "Item_9_EHE",
+    "price_per_unit": 17.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "175",
+    "item_name": "Item_18_EHE",
+    "price_per_unit": 30.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "198",
+    "item_name": "Item_14_EHE",
+    "price_per_unit": 24.5,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "199",
+    "item_name": "Item_3_EHE",
+    "price_per_unit": 8.0,
+    "category_id": 4,
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "5",
+    "item_name": "Item_6_FOOD",
+    "price_per_unit": 12.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "7",
+    "item_name": "Item_1_FOOD",
+    "price_per_unit": 5.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "12",
+    "item_name": "Item_2_FOOD",
+    "price_per_unit": 6.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "20",
+    "item_name": "Item_10_FOOD",
+    "price_per_unit": 18.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "24",
+    "item_name": "Item_14_FOOD",
+    "price_per_unit": 24.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "26",
+    "item_name": "Item_11_FOOD",
+    "price_per_unit": 20.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "30",
+    "item_name": "Item_23_FOOD",
+    "price_per_unit": 38.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "38",
+    "item_name": "Item_3_FOOD",
+    "price_per_unit": 8.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "39",
+    "item_name": "Item_12_FOOD",
+    "price_per_unit": 21.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "50",
+    "item_name": "Item_22_FOOD",
+    "price_per_unit": 36.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "54",
+    "item_name": "Item_18_FOOD",
+    "price_per_unit": 30.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "60",
+    "item_name": "Item_20_FOOD",
+    "price_per_unit": 33.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "63",
+    "item_name": "Item_7_FOOD",
+    "price_per_unit": 14.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "67",
+    "item_name": "Item_4_FOOD",
+    "price_per_unit": 9.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "79",
+    "item_name": "Item_9_FOOD",
+    "price_per_unit": 17.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "87",
+    "item_name": "Item_24_FOOD",
+    "price_per_unit": 39.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "116",
+    "item_name": "Item_25_FOOD",
+    "price_per_unit": 41.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "125",
+    "item_name": "Item_5_FOOD",
+    "price_per_unit": 11.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "137",
+    "item_name": "Item_13_FOOD",
+    "price_per_unit": 23.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "140",
+    "item_name": "Item_17_FOOD",
+    "price_per_unit": 29.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "170",
+    "item_name": "Item_15_FOOD",
+    "price_per_unit": 26.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "171",
+    "item_name": "Item_8_FOOD",
+    "price_per_unit": 15.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "189",
+    "item_name": "Item_21_FOOD",
+    "price_per_unit": 35.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "196",
+    "item_name": "Item_16_FOOD",
+    "price_per_unit": 27.5,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "197",
+    "item_name": "Item_19_FOOD",
+    "price_per_unit": 32.0,
+    "category_id": 5,
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "8",
+    "item_name": "Item_16_FUR",
+    "price_per_unit": 27.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "21",
+    "item_name": "Item_14_FUR",
+    "price_per_unit": 24.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "23",
+    "item_name": "Item_25_FUR",
+    "price_per_unit": 41.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "31",
+    "item_name": "Item_10_FUR",
+    "price_per_unit": 18.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "44",
+    "item_name": "Item_23_FUR",
+    "price_per_unit": 38.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "45",
+    "item_name": "Item_7_FUR",
+    "price_per_unit": 14.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "57",
+    "item_name": "Item_22_FUR",
+    "price_per_unit": 36.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "61",
+    "item_name": "Item_11_FUR",
+    "price_per_unit": 20.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "64",
+    "item_name": "Item_21_FUR",
+    "price_per_unit": 35.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "65",
+    "item_name": "Item_24_FUR",
+    "price_per_unit": 39.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "78",
+    "item_name": "Item_5_FUR",
+    "price_per_unit": 11.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "93",
+    "item_name": "Item_1_FUR",
+    "price_per_unit": 5.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "98",
+    "item_name": "Item_2_FUR",
+    "price_per_unit": 6.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "100",
+    "item_name": "Item_8_FUR",
+    "price_per_unit": 15.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "109",
+    "item_name": "Item_17_FUR",
+    "price_per_unit": 29.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "130",
+    "item_name": "Item_15_FUR",
+    "price_per_unit": 26.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "149",
+    "item_name": "Item_4_FUR",
+    "price_per_unit": 9.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "154",
+    "item_name": "Item_20_FUR",
+    "price_per_unit": 33.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "156",
+    "item_name": "Item_9_FUR",
+    "price_per_unit": 17.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "161",
+    "item_name": "Item_6_FUR",
+    "price_per_unit": 12.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "164",
+    "item_name": "Item_12_FUR",
+    "price_per_unit": 21.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "176",
+    "item_name": "Item_3_FUR",
+    "price_per_unit": 8.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "180",
+    "item_name": "Item_19_FUR",
+    "price_per_unit": 32.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "184",
+    "item_name": "Item_18_FUR",
+    "price_per_unit": 30.5,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "192",
+    "item_name": "Item_13_FUR",
+    "price_per_unit": 23.0,
+    "category_id": 6,
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "2",
+    "item_name": "Item_17_MILK",
+    "price_per_unit": 29.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "11",
+    "item_name": "Item_2_MILK",
+    "price_per_unit": 6.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "14",
+    "item_name": "Item_16_MILK",
+    "price_per_unit": 27.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "18",
+    "item_name": "Item_21_MILK",
+    "price_per_unit": 35.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "43",
+    "item_name": "Item_19_MILK",
+    "price_per_unit": 32.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "47",
+    "item_name": "Item_6_MILK",
+    "price_per_unit": 12.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "66",
+    "item_name": "Item_8_MILK",
+    "price_per_unit": 15.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "70",
+    "item_name": "Item_4_MILK",
+    "price_per_unit": 9.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "83",
+    "item_name": "Item_23_MILK",
+    "price_per_unit": 38.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "89",
+    "item_name": "Item_1_MILK",
+    "price_per_unit": 5.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "90",
+    "item_name": "Item_24_MILK",
+    "price_per_unit": 39.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "94",
+    "item_name": "Item_3_MILK",
+    "price_per_unit": 8.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "95",
+    "item_name": "Item_11_MILK",
+    "price_per_unit": 20.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "110",
+    "item_name": "Item_15_MILK",
+    "price_per_unit": 26.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "129",
+    "item_name": "Item_5_MILK",
+    "price_per_unit": 11.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "136",
+    "item_name": "Item_20_MILK",
+    "price_per_unit": 33.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "139",
+    "item_name": "Item_9_MILK",
+    "price_per_unit": 17.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "146",
+    "item_name": "Item_13_MILK",
+    "price_per_unit": 23.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "148",
+    "item_name": "Item_22_MILK",
+    "price_per_unit": 36.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "160",
+    "item_name": "Item_18_MILK",
+    "price_per_unit": 30.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "163",
+    "item_name": "Item_14_MILK",
+    "price_per_unit": 24.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "181",
+    "item_name": "Item_7_MILK",
+    "price_per_unit": 14.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "185",
+    "item_name": "Item_25_MILK",
+    "price_per_unit": 41.0,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "194",
+    "item_name": "Item_12_MILK",
+    "price_per_unit": 21.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "195",
+    "item_name": "Item_10_MILK",
+    "price_per_unit": 18.5,
+    "category_id": 7,
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "1",
+    "item_name": "Item_10_PAT",
+    "price_per_unit": 18.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "6",
+    "item_name": "Item_11_PAT",
+    "price_per_unit": 20.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "13",
+    "item_name": "Item_24_PAT",
+    "price_per_unit": 39.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "15",
+    "item_name": "Item_17_PAT",
+    "price_per_unit": 29.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "25",
+    "item_name": "Item_22_PAT",
+    "price_per_unit": 36.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "27",
+    "item_name": "Item_6_PAT",
+    "price_per_unit": 12.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "52",
+    "item_name": "Item_14_PAT",
+    "price_per_unit": 24.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "53",
+    "item_name": "Item_12_PAT",
+    "price_per_unit": 21.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "55",
+    "item_name": "Item_1_PAT",
+    "price_per_unit": 5.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "58",
+    "item_name": "Item_7_PAT",
+    "price_per_unit": 14.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "62",
+    "item_name": "Item_25_PAT",
+    "price_per_unit": 41.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "69",
+    "item_name": "Item_4_PAT",
+    "price_per_unit": 9.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "74",
+    "item_name": "Item_16_PAT",
+    "price_per_unit": 27.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "119",
+    "item_name": "Item_13_PAT",
+    "price_per_unit": 23.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "131",
+    "item_name": "Item_15_PAT",
+    "price_per_unit": 26.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "141",
+    "item_name": "Item_20_PAT",
+    "price_per_unit": 33.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "142",
+    "item_name": "Item_9_PAT",
+    "price_per_unit": 17.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "145",
+    "item_name": "Item_8_PAT",
+    "price_per_unit": 15.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "151",
+    "item_name": "Item_19_PAT",
+    "price_per_unit": 32.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "152",
+    "item_name": "Item_2_PAT",
+    "price_per_unit": 6.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "159",
+    "item_name": "Item_5_PAT",
+    "price_per_unit": 11.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "169",
+    "item_name": "Item_23_PAT",
+    "price_per_unit": 38.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "178",
+    "item_name": "Item_3_PAT",
+    "price_per_unit": 8.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "188",
+    "item_name": "Item_21_PAT",
+    "price_per_unit": 35.0,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "193",
+    "item_name": "Item_18_PAT",
+    "price_per_unit": 30.5,
+    "category_id": 8,
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  }
+]

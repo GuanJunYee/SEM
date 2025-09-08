@@ -14,6 +14,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from datetime import datetime
+import subprocess
 
 # Set pandas options to avoid warnings
 pd.set_option('future.no_silent_downcasting', True)
@@ -389,6 +390,36 @@ def denormalize_for_mongo(normalized_tables):
     
     return mongo_df
 
+def create_backup_if_requested():
+    """Create backup if requested by user"""
+    backup_script = ROOT / "scripts" / "05_backup_restore.py"
+    
+    if backup_script.exists():
+        try:
+            log("Creating pre-migration backup...")
+            result = subprocess.run([
+                sys.executable, str(backup_script), "backup"
+            ], capture_output=True, text=True, cwd=ROOT)
+            
+            if result.returncode == 0:
+                log("Backup created successfully")
+                # Extract backup path from output
+                for line in result.stdout.split('\n'):
+                    if 'Backup created at:' in line:
+                        backup_path = line.split('Backup created at:')[-1].strip()
+                        log(f"Backup location: {backup_path}")
+                        return backup_path
+            else:
+                log(f"Backup failed: {result.stderr}")
+                return None
+                
+        except Exception as e:
+            log(f"Backup error: {e}")
+            return None
+    else:
+        log("Backup script not found, skipping backup")
+        return None
+
 def main():
     """Data pipeline with smart recovery logic"""
     parser = argparse.ArgumentParser(description="Data Pipeline with Smart Recovery")
@@ -396,13 +427,33 @@ def main():
                        help='Create denormalized data for MongoDB')
     parser.add_argument('--skip-cleaning', action='store_true',
                        help='Skip cleaning step (use existing clean data)')
+    parser.add_argument('--backup', action='store_true', 
+                       help='Create backup before starting pipeline')
+    parser.add_argument('--mysql', action='store_true', 
+                       help='Run MySQL migration after pipeline')
+    parser.add_argument('--mongodb', action='store_true', 
+                       help='Run MongoDB migration after pipeline')
+    parser.add_argument('--validate', action='store_true', 
+                       help='Run validation after migrations')
     
     args = parser.parse_args()
     
-    log("DATA PIPELINE WITH SMART RECOVERY")
+    log("DATA PROCESSING PIPELINE WITH BACKUP SUPPORT")
     log("=" * 60)
+    log(f"Started at: {datetime.now()}")
+    log(f"Raw data: {RAW_CSV}")
+    log(f"Backup requested: {args.backup}")
     
     try:
+        # Create backup if requested
+        backup_path = None
+        if args.backup:
+            backup_path = create_backup_if_requested()
+            if backup_path:
+                log(f"Backup saved: {backup_path}")
+            else:
+                log("WARNING: Backup failed, continuing without backup")
+        
         # Step 1: Clean data (unless skipped)
         if args.skip_cleaning and CLEAN_CSV.exists():
             log("Skipping cleaning - using existing clean data")
@@ -425,9 +476,45 @@ def main():
         else:
             log(f"\n>> MongoDB: Use --denormalize-mongo flag to create denormalized data")
         
+        # Run subsequent scripts if requested
+        if args.mysql:
+            log("\n>> Running MySQL migration...")
+            mysql_script = ROOT / "scripts" / "02_mysql_migration_normalized.py"
+            if mysql_script.exists():
+                result = subprocess.run([sys.executable, str(mysql_script)], 
+                                      cwd=ROOT, capture_output=True, text=True)
+                if result.returncode == 0:
+                    log("   MySQL migration completed successfully")
+                else:
+                    log(f"   MySQL migration failed: {result.stderr}")
+        
+        if args.mongodb:
+            log("\n>> Running MongoDB migration...")
+            mongodb_script = ROOT / "scripts" / "03_mongodb_migration_normalized.py"
+            if mongodb_script.exists():
+                result = subprocess.run([sys.executable, str(mongodb_script)], 
+                                      cwd=ROOT, capture_output=True, text=True)
+                if result.returncode == 0:
+                    log("   MongoDB migration completed successfully")
+                else:
+                    log(f"   MongoDB migration failed: {result.stderr}")
+        
+        if args.validate:
+            log("\n>> Running validation...")
+            validation_script = ROOT / "scripts" / "04_data_validation_normalized.py"
+            if validation_script.exists():
+                result = subprocess.run([sys.executable, str(validation_script)], 
+                                      cwd=ROOT, capture_output=True, text=True)
+                if result.returncode == 0:
+                    log("   Validation completed successfully")
+                else:
+                    log(f"   Validation failed: {result.stderr}")
+        
         log(f"\n>> SUCCESS: Pipeline completed!")
         log(f"   Log saved to: {LOG_FILE}")
         log(f"   Dropped rows report: {DROPPED_ROWS_CSV}")
+        if backup_path:
+            log(f"   Backup available at: {backup_path}")
         
         # Save complete log to file
         with open(LOG_FILE, "w", encoding="utf-8") as f:

@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "1",
+    "category_name": "Beverages",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "2",
+    "category_name": "Butchers",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "3",
+    "category_name": "Computers and electric accessories",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "4",
+    "category_name": "Electric household essentials",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "5",
+    "category_name": "Food",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "6",
+    "category_name": "Furniture",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "7",
+    "category_name": "Milk Products",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  },
+  {
+    "_id": "8",
+    "category_name": "Patisserie",
+    "created_at": "2025-09-08T14:22:16",
+    "updated_at": "2025-09-08T14:22:16"
+  }
+]

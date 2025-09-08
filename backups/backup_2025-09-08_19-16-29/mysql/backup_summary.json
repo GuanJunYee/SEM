@@ -1,0 +1,32 @@
+{
+  "categories": {
+    "records": 8,
+    "file_size": 513,
+    "status": "success"
+  },
+  "customers": {
+    "records": 25,
+    "file_size": 1257,
+    "status": "success"
+  },
+  "items": {
+    "records": 200,
+    "file_size": 12699,
+    "status": "success"
+  },
+  "locations": {
+    "records": 2,
+    "file_size": 147,
+    "status": "success"
+  },
+  "paymentmethods": {
+    "records": 3,
+    "file_size": 216,
+    "status": "success"
+  },
+  "transactions": {
+    "records": 11971,
+    "file_size": 1065542,
+    "status": "success"
+  }
+}
