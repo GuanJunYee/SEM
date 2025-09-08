@@ -24,8 +24,10 @@ import argparse
 # Setup paths
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "dataset"
+NORMALIZED_DIR = DATA_DIR / "normalized"  # New: Folder for normalized CSV files
 RESULTS_DIR = ROOT / "results"
 RESULTS_DIR.mkdir(exist_ok=True)
+NORMALIZED_DIR.mkdir(exist_ok=True)  # Create normalized folder
 
 # Input/Output files
 RAW_CSV = DATA_DIR / "retail_store_sales.csv"
@@ -277,9 +279,9 @@ def normalize_data(df):
         'CategoryID': range(1, len(categories) + 1),
         'CategoryName': sorted(categories)
     })
-    categories_df.to_csv(DATA_DIR / "categories.csv", index=False)
+    categories_df.to_csv(NORMALIZED_DIR / "categories.csv", index=False)
     normalized_tables['categories'] = categories_df
-    log(f"Created Categories table: {len(categories_df)} records")
+    log(f"Created Categories table: {len(categories_df)} records → saved to normalized/categories.csv")
     
     # Customers table  
     customers = df['Customer ID'].unique()
@@ -287,9 +289,9 @@ def normalize_data(df):
         'CustomerID': customers,
         'CustomerName': [f"Customer_{cid.split('_')[1]}" for cid in customers]
     })
-    customers_df.to_csv(DATA_DIR / "customers.csv", index=False)
+    customers_df.to_csv(NORMALIZED_DIR / "customers.csv", index=False)
     normalized_tables['customers'] = customers_df
-    log(f"Created Customers table: {len(customers_df)} records")
+    log(f"Created Customers table: {len(customers_df)} records → saved to normalized/customers.csv")
     
     # Payment Methods table
     payment_methods = df['Payment Method'].unique()
@@ -297,9 +299,9 @@ def normalize_data(df):
         'PaymentMethodID': range(1, len(payment_methods) + 1),
         'PaymentMethodName': sorted(payment_methods)
     })
-    payment_methods_df.to_csv(DATA_DIR / "payment_methods.csv", index=False)
+    payment_methods_df.to_csv(NORMALIZED_DIR / "payment_methods.csv", index=False)
     normalized_tables['payment_methods'] = payment_methods_df
-    log(f"Created PaymentMethods table: {len(payment_methods_df)} records")
+    log(f"Created PaymentMethods table: {len(payment_methods_df)} records → saved to normalized/payment_methods.csv")
     
     # Locations table
     locations = df['Location'].unique()
@@ -307,9 +309,9 @@ def normalize_data(df):
         'LocationID': range(1, len(locations) + 1),
         'LocationName': sorted(locations)
     })
-    locations_df.to_csv(DATA_DIR / "locations.csv", index=False)
+    locations_df.to_csv(NORMALIZED_DIR / "locations.csv", index=False)
     normalized_tables['locations'] = locations_df
-    log(f"Created Locations table: {len(locations_df)} records")
+    log(f"Created Locations table: {len(locations_df)} records → saved to normalized/locations.csv")
     
     # Items table
     items_unique = df[['Item', 'Category', 'Price Per Unit']].drop_duplicates()
@@ -320,9 +322,9 @@ def normalize_data(df):
         'PricePerUnit': items_unique['Price Per Unit'].values,
         'CategoryID': items_unique['Category'].map(category_map).values
     })
-    items_df.to_csv(DATA_DIR / "items.csv", index=False)
+    items_df.to_csv(NORMALIZED_DIR / "items.csv", index=False)
     normalized_tables['items'] = items_df
-    log(f"Created Items table: {len(items_df)} records")
+    log(f"Created Items table: {len(items_df)} records → saved to normalized/items.csv")
     
     # Transactions table (normalized)
     payment_map = dict(zip(payment_methods_df['PaymentMethodName'], payment_methods_df['PaymentMethodID']))
@@ -344,9 +346,9 @@ def normalize_data(df):
         'TransactionDate': df['Transaction Date'],
         'DiscountApplied': df['Discount Applied']
     })
-    transactions_df.to_csv(DATA_DIR / "transactions_normalized.csv", index=False)
+    transactions_df.to_csv(NORMALIZED_DIR / "transactions_normalized.csv", index=False)
     normalized_tables['transactions'] = transactions_df
-    log(f"Created Transactions table: {len(transactions_df)} records")
+    log(f"Created Transactions table: {len(transactions_df)} records → saved to normalized/transactions_normalized.csv")
     
     log(f"\nNormalization complete! Created {len(normalized_tables)} tables")
     return normalized_tables
@@ -384,8 +386,8 @@ def denormalize_for_mongo(normalized_tables):
         'LocationName', 'TransactionDate', 'DiscountApplied'
     ]].copy()
     
-    mongo_df.to_csv(DATA_DIR / "mongo_denormalized.csv", index=False)
-    log(f"Created denormalized data for MongoDB: {len(mongo_df)} records")
+    mongo_df.to_csv(NORMALIZED_DIR / "mongo_denormalized.csv", index=False)
+    log(f"Created denormalized data for MongoDB: {len(mongo_df)} records → saved to normalized/mongo_denormalized.csv")
     
     return mongo_df
 

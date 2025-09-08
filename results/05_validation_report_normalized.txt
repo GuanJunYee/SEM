@@ -1,0 +1,146 @@
+NORMALIZED DATABASE MIGRATION VALIDATION
+================================================================================
+Validation started at: 2025-09-08 12:58:26.437403
+MySQL database: retail_db
+MongoDB database: retail_store
+Structure type: normalized
+Validating database connections...
+✓ MySQL connection validated
+✓ MongoDB connection validated
+
+============================================================
+MYSQL DATABASE ANALYSIS
+============================================================
+
+Table Record Counts:
+-------------------------
+Categories     : 8 records
+Locations      : 2 records
+PaymentMethods : 3 records
+Customers      : 25 records
+Items          : 200 records
+Transactions   : 11,971 records
+
+Transaction Date Analysis:
+------------------------------
+Date range: 2022-01-01 to 2025-01-18
+
+Distinct Value Analysis:
+----------------------------
+Unique customers in transactions: 25
+Unique items in transactions: 200
+Unique categories: 8
+
+Business Metrics:
+--------------------
+Total revenue: $1,552,071.00
+Average order value: $129.65
+Total items sold: 66,276
+
+Enhanced Data Integrity & Schema Validation:
+---------------------------------------------
+
+1. Foreign Key Integrity:
+   • Transactions with invalid customers: 0
+   • Transactions with invalid items: 0
+   • Transactions with invalid payment methods: 0
+   • Transactions with invalid locations: 0
+
+2. Business Rule Anomalies:
+Enhanced integrity check error: (pymysql.err.OperationalError) (1054, "Unknown column 'i.Price' in 'where clause'")
+[SQL: 
+                SELECT COUNT(*) FROM Transactions t
+                JOIN Items i ON t.ItemID = i.ItemID  
+                WHERE ABS(t.TotalPrice - (i.Price * t.Quantity)) > 0.01
+            ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+============================================================
+MONGODB DATABASE ANALYSIS (NORMALIZED)
+============================================================
+
+Collection Record Counts:
+----------------------------
+categories          : 8 documents
+locations           : 2 documents
+payment_methods     : 3 documents
+customers           : 25 documents
+items               : 200 documents
+transactions        : 11,971 documents
+
+Transaction Analysis (transactions):
+----------------------------------------
+Date range: 2022-01-01 00:00:00 to 2025-01-18 00:00:00
+Total revenue: $1,552,071.00
+Average order value: $129.65
+Total items sold: 66,276
+Unique customers: 25
+Unique items: 200
+Unique categories: 8
+
+============================================================
+MYSQL vs MONGODB COMPARISON (NORMALIZED)
+============================================================
+
+Record Count Comparison:
+---------------------------
+✓ categories     : MySQL=8 | MongoDB=8
+✓ locations      : MySQL=2 | MongoDB=2
+✓ payment_methods: MySQL=3 | MongoDB=3
+✓ customers      : MySQL=25 | MongoDB=25
+✓ items          : MySQL=200 | MongoDB=200
+✓ transactions   : MySQL=11,971 | MongoDB=11,971
+
+Business Metrics Comparison:
+--------------------------------
+✓ Total revenue: MySQL=$1,552,071.00 | MongoDB=$1,552,071.00
+✓ Total quantity: MySQL=66,276 | MongoDB=66,276
+
+Date Range Comparison:
+-----------------------
+✗ Min date: MySQL=2022-01-01 | MongoDB=2022-01-01 00:00:00
+✗ Max date: MySQL=2025-01-18 | MongoDB=2025-01-18 00:00:00
+
+============================================================
+SPOT CHECK VERIFICATION (NORMALIZED)
+============================================================
+
+Spot checking 5 transactions:
+--------------------------------------------------
+✗ Transaction TXN_1423789: Data mismatches - date: MySQL=2023-11-03, MongoDB=2023-11-03 00:00:00
+✗ Transaction TXN_5828470: Data mismatches - date: MySQL=2022-11-17, MongoDB=2022-11-17 00:00:00
+✗ Transaction TXN_2217907: Data mismatches - date: MySQL=2022-05-15, MongoDB=2022-05-15 00:00:00
+✗ Transaction TXN_2828079: Data mismatches - date: MySQL=2023-01-05, MongoDB=2023-01-05 00:00:00
+✗ Transaction TXN_7842114: Data mismatches - date: MySQL=2023-03-11, MongoDB=2023-03-11 00:00:00
+
+Spot Check Summary:
+  Total checked: 5
+  Missing in MongoDB: 0
+  Data mismatches: 5
+  Mismatch IDs: ['TXN_1423789', 'TXN_5828470', 'TXN_2217907', 'TXN_2828079', 'TXN_7842114']
+
+============================================================
+FINAL VALIDATION REPORT
+============================================================
+
+Overall Migration Status: ✓ PASSED
+
+Migration Summary (NORMALIZED):
+------------------------------
+MySQL total records: 12,209
+MongoDB total documents: 12,209
+Migration success rate: 100.00%
+
+Data Quality Assessment:
+---------------------------
+Foreign key integrity issues: 0
+Business rule violations: 0
+
+Recommendations:
+----------------
+  • Migration completed successfully
+  • Data integrity maintained across both databases
+  • No further action required
+
+Validation completed at: 2025-09-08 12:58:26.704310
+Report saved to: C:\Users\user\Desktop\New folder\SEM\results\05_validation_report_normalized.txt

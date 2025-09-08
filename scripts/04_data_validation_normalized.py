@@ -144,11 +144,12 @@ def get_mysql_statistics(engine):
         except Exception as e:
             log(f"Business metrics error: {e}")
         
-        # Data integrity checks
-        log("\nData Integrity Checks:")
-        log("-" * 26)
+        # Enhanced Data Integrity & Schema Validation
+        log("\nEnhanced Data Integrity & Schema Validation:")
+        log("-" * 45)
         try:
-            # Check for orphaned transactions
+            # 1. Foreign Key Constraint Violations (Orphaned Records)
+            log("\n1. Foreign Key Integrity:")
             orphaned_customers = conn.execute(text("""
                 SELECT COUNT(*) FROM Transactions t 
                 LEFT JOIN Customers c ON t.CustomerID = c.CustomerID 
@@ -178,23 +179,117 @@ def get_mysql_statistics(engine):
             stats['orphaned_payments'] = orphaned_payments
             stats['orphaned_locations'] = orphaned_locations
             
-            log(f"Transactions with invalid customers: {orphaned_customers}")
-            log(f"Transactions with invalid items: {orphaned_items}")
-            log(f"Transactions with invalid payment methods: {orphaned_payments}")
-            log(f"Transactions with invalid locations: {orphaned_locations}")
+            log(f"   • Transactions with invalid customers: {orphaned_customers}")
+            log(f"   • Transactions with invalid items: {orphaned_items}")
+            log(f"   • Transactions with invalid payment methods: {orphaned_payments}")
+            log(f"   • Transactions with invalid locations: {orphaned_locations}")
             
-            # Business rule violations
+            # 2. Business Rule Anomaly Detection
+            log("\n2. Business Rule Anomalies:")
+            
+            # Check Total = Price * Quantity (with tolerance for floating point)
+            price_calculation_errors = conn.execute(text("""
+                SELECT COUNT(*) FROM Transactions t
+                JOIN Items i ON t.ItemID = i.ItemID  
+                WHERE ABS(t.TotalPrice - (i.Price * t.Quantity)) > 0.01
+            """)).scalar()
+            
+            # Non-positive quantities
             negative_quantities = conn.execute(text("SELECT COUNT(*) FROM Transactions WHERE Quantity <= 0")).scalar()
+            
+            # Non-positive prices  
             negative_prices = conn.execute(text("SELECT COUNT(*) FROM Transactions WHERE TotalPrice <= 0")).scalar()
             
+            # Invalid dates (future dates beyond reasonable range)
+            future_dates = conn.execute(text("""
+                SELECT COUNT(*) FROM Transactions 
+                WHERE TransactionDate > CURDATE() + INTERVAL 1 DAY
+            """)).scalar()
+            
+            # Extremely high quantities (potential data entry errors)
+            extreme_quantities = conn.execute(text("SELECT COUNT(*) FROM Transactions WHERE Quantity > 1000")).scalar()
+            
+            # Extremely high prices (potential outliers)
+            extreme_prices = conn.execute(text("SELECT COUNT(*) FROM Transactions WHERE TotalPrice > 10000")).scalar()
+            
+            stats['price_calculation_errors'] = price_calculation_errors
             stats['negative_quantities'] = negative_quantities
             stats['negative_prices'] = negative_prices
+            stats['future_dates'] = future_dates
+            stats['extreme_quantities'] = extreme_quantities
+            stats['extreme_prices'] = extreme_prices
             
-            log(f"Transactions with negative/zero quantity: {negative_quantities}")
-            log(f"Transactions with negative/zero price: {negative_prices}")
+            log(f"   • Price calculation errors (Total ≠ Price × Qty): {price_calculation_errors}")
+            log(f"   • Transactions with negative/zero quantity: {negative_quantities}")
+            log(f"   • Transactions with negative/zero price: {negative_prices}")
+            log(f"   • Transactions with future dates: {future_dates}")
+            log(f"   • Transactions with extreme quantities (>1000): {extreme_quantities}")
+            log(f"   • Transactions with extreme prices (>$10,000): {extreme_prices}")
+            
+            # 3. Data Type & Range Validation
+            log("\n3. Data Type & Range Validation:")
+            
+            # Check for NULL values in NOT NULL columns
+            null_customer_ids = conn.execute(text("SELECT COUNT(*) FROM Transactions WHERE CustomerID IS NULL")).scalar()
+            null_transaction_ids = conn.execute(text("SELECT COUNT(*) FROM Transactions WHERE TransactionID IS NULL")).scalar()
+            
+            # Check string length constraints
+            long_customer_ids = conn.execute(text("SELECT COUNT(*) FROM Customers WHERE LENGTH(CustomerID) > 32")).scalar()
+            long_transaction_ids = conn.execute(text("SELECT COUNT(*) FROM Transactions WHERE LENGTH(TransactionID) > 32")).scalar()
+            
+            # Check decimal precision constraints (TotalPrice should be within DECIMAL(10,2))
+            precision_violations = conn.execute(text("""
+                SELECT COUNT(*) FROM Transactions 
+                WHERE TotalPrice >= 100000000 OR ROUND(TotalPrice, 2) != TotalPrice
+            """)).scalar()
+            
+            stats['null_customer_ids'] = null_customer_ids
+            stats['null_transaction_ids'] = null_transaction_ids
+            stats['long_customer_ids'] = long_customer_ids
+            stats['long_transaction_ids'] = long_transaction_ids
+            stats['precision_violations'] = precision_violations
+            
+            log(f"   • NULL CustomerIDs: {null_customer_ids}")
+            log(f"   • NULL TransactionIDs: {null_transaction_ids}")
+            log(f"   • CustomerIDs exceeding 32 chars: {long_customer_ids}")
+            log(f"   • TransactionIDs exceeding 32 chars: {long_transaction_ids}")
+            log(f"   • Price precision violations: {precision_violations}")
+            
+            # 4. Duplicate Detection
+            log("\n4. Duplicate Detection:")
+            
+            duplicate_transactions = conn.execute(text("""
+                SELECT COUNT(*) - COUNT(DISTINCT TransactionID) FROM Transactions
+            """)).scalar()
+            
+            duplicate_customers = conn.execute(text("""
+                SELECT COUNT(*) - COUNT(DISTINCT CustomerID) FROM Customers
+            """)).scalar()
+            
+            stats['duplicate_transactions'] = duplicate_transactions
+            stats['duplicate_customers'] = duplicate_customers
+            
+            log(f"   • Duplicate TransactionIDs: {duplicate_transactions}")
+            log(f"   • Duplicate CustomerIDs: {duplicate_customers}")
+            
+            # 5. Summary of Issues
+            total_issues = (orphaned_customers + orphaned_items + orphaned_payments + orphaned_locations + 
+                          price_calculation_errors + negative_quantities + negative_prices + future_dates +
+                          extreme_quantities + extreme_prices + null_customer_ids + null_transaction_ids +
+                          long_customer_ids + long_transaction_ids + precision_violations + 
+                          duplicate_transactions + duplicate_customers)
+            
+            stats['total_validation_issues'] = total_issues
+            
+            log(f"\n📊 VALIDATION SUMMARY:")
+            log(f"   • Total validation issues found: {total_issues}")
+            if total_issues == 0:
+                log("   ✅ All validation checks passed!")
+            else:
+                log(f"   ⚠️  {total_issues} validation issues require attention")
             
         except Exception as e:
-            log(f"Integrity check error: {e}")
+            log(f"Enhanced integrity check error: {e}")
         
         # Sample transaction IDs for spot checking
         try:

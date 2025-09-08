@@ -1,0 +1,28 @@
+[2025-09-08 12:57:15] MIGRATION_START: Starting normalized MySQL migration to database: retail_db
+[2025-09-08 12:57:15] FILE_VALIDATION: All required CSV files found: 6 files
+[2025-09-08 12:57:15] DATABASE_CREATED: Database retail_db created/verified
+[2025-09-08 12:57:15] CONNECTION_ESTABLISHED: Database connection established to retail_db
+[2025-09-08 12:57:15] SCHEMA_CREATED: Normalized schema tables created/verified
+[2025-09-08 12:57:15] RECONCILIATION_SUCCESS: Table Categories (categories migration): Expected 8, Got 8
+[2025-09-08 12:57:15] RECONCILIATION_SUCCESS: Table Locations (locations migration): Expected 2, Got 2
+[2025-09-08 12:57:15] RECONCILIATION_SUCCESS: Table PaymentMethods (payment methods migration): Expected 3, Got 3
+[2025-09-08 12:57:15] RECONCILIATION_SUCCESS: Table Customers (customers migration): Expected 25, Got 25
+[2025-09-08 12:57:15] REFERENCE_TABLES_LOADED: All reference tables (Categories, Locations, PaymentMethods, Customers) loaded
+[2025-09-08 12:57:15] RECONCILIATION_SUCCESS: Table Items (items migration): Expected 200, Got 200
+[2025-09-08 12:57:15] ITEMS_TABLE_LOADED: Items table with foreign key relationships loaded
+[2025-09-08 12:57:16] RECONCILIATION_FAILED: Table Transactions (batch 1-1000): Expected 1000, Got 0
+[2025-09-08 12:57:16] RECONCILIATION_FAILED: Table Transactions (batch 1001-2000): Expected 2000, Got 0
+[2025-09-08 12:57:17] RECONCILIATION_FAILED: Table Transactions (batch 2001-3000): Expected 3000, Got 0
+[2025-09-08 12:57:17] RECONCILIATION_FAILED: Table Transactions (batch 3001-4000): Expected 4000, Got 0
+[2025-09-08 12:57:18] RECONCILIATION_FAILED: Table Transactions (batch 4001-5000): Expected 5000, Got 0
+[2025-09-08 12:57:18] RECONCILIATION_FAILED: Table Transactions (batch 5001-6000): Expected 6000, Got 0
+[2025-09-08 12:57:19] RECONCILIATION_FAILED: Table Transactions (batch 6001-7000): Expected 7000, Got 0
+[2025-09-08 12:57:19] RECONCILIATION_FAILED: Table Transactions (batch 7001-8000): Expected 8000, Got 0
+[2025-09-08 12:57:19] RECONCILIATION_FAILED: Table Transactions (batch 8001-9000): Expected 9000, Got 0
+[2025-09-08 12:57:20] RECONCILIATION_FAILED: Table Transactions (batch 9001-10000): Expected 10000, Got 0
+[2025-09-08 12:57:20] RECONCILIATION_FAILED: Table Transactions (batch 10001-11000): Expected 11000, Got 0
+[2025-09-08 12:57:21] RECONCILIATION_FAILED: Table Transactions (batch 11001-11971): Expected 11971, Got 0
+[2025-09-08 12:57:21] RECONCILIATION_SUCCESS: Table Transactions (final check): Expected 11971, Got 11971
+[2025-09-08 12:57:21] TRANSACTIONS_TABLE_LOADED: Transactions table with all foreign key relationships loaded
+[2025-09-08 12:57:21] DATA_INTEGRITY_VERIFIED: All data integrity checks completed
+[2025-09-08 12:57:21] MIGRATION_SUCCESS: Complete migration finished successfully. Database: retail_db, Log: C:\Users\user\Desktop\New folder\SEM\results\03_mysql_normalized_load_log.txt
