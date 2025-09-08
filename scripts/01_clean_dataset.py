@@ -16,8 +16,10 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "dataset" / "retail_store_sales.csv"
 CLEAN = ROOT / "dataset" / "retail_store_sales_clean.csv"
 DROPPED_ROWS = ROOT / "results" / "dropped_rows_report.csv"
+NORMALIZE_DIR = ROOT / "normalize_table"
 RESULTS = ROOT / "results"
 RESULTS.mkdir(exist_ok=True)
+NORMALIZE_DIR.mkdir(exist_ok=True)
 
 log_lines = []
 def log(msg: str):
@@ -228,7 +230,127 @@ quality_file = RESULTS / "01_quality_checks.csv"
 checks.to_csv(quality_file, index=False)
 log(f"[OK] Saved quality checks: {quality_file.name}")
 
-print(f"\n[SUCCESS] Enhanced cleaning complete! Dataset ready at: {CLEAN.name}")
-print(f"[INFO] Retention rate: {(len(df) / cleaning_report['initial_rows'] * 100):.1f}%")
+# === PHASE 5: DATA NORMALIZATION ===
+log("\n=== PHASE 5: DATA NORMALIZATION ===")
+log("Creating normalized tables according to ERD...")
+
+# Initialize normalization tracking
+normalized_tables = {}
+total_normalized_rows = 0
+
+# 1. Create Categories table
+log("1. Creating Categories table...")
+categories_data = df[['Category']].drop_duplicates().dropna()
+categories_data = categories_data.reset_index(drop=True)
+categories_data['CategoryID'] = range(1, len(categories_data) + 1)
+categories_table = categories_data[['CategoryID', 'Category']].rename(columns={'Category': 'CategoryName'})
+categories_table.to_csv(NORMALIZE_DIR / "categories.csv", index=False)
+normalized_tables['categories'] = len(categories_table)
+log(f"[OK] Categories table: {len(categories_table)} rows")
+
+# 2. Create Locations table
+log("2. Creating Locations table...")
+locations_data = df[['Location']].drop_duplicates().dropna()
+locations_data = locations_data.reset_index(drop=True)
+locations_data['LocationID'] = range(1, len(locations_data) + 1)
+locations_table = locations_data[['LocationID', 'Location']].rename(columns={'Location': 'LocationName'})
+locations_table.to_csv(NORMALIZE_DIR / "locations.csv", index=False)
+normalized_tables['locations'] = len(locations_table)
+log(f"[OK] Locations table: {len(locations_table)} rows")
+
+# 3. Create PaymentMethods table
+log("3. Creating PaymentMethods table...")
+payment_data = df[['Payment Method']].drop_duplicates().dropna()
+payment_data = payment_data.reset_index(drop=True)
+payment_data['PaymentMethodID'] = range(1, len(payment_data) + 1)
+payment_table = payment_data[['PaymentMethodID', 'Payment Method']].rename(columns={'Payment Method': 'PaymentMethodName'})
+payment_table.to_csv(NORMALIZE_DIR / "payment_methods.csv", index=False)
+normalized_tables['payment_methods'] = len(payment_table)
+log(f"[OK] PaymentMethods table: {len(payment_table)} rows")
+
+# 4. Create Items table (with CategoryID foreign key)
+log("4. Creating Items table...")
+# Merge with categories to get CategoryID
+df_with_cat_id = df.merge(categories_table.rename(columns={'CategoryName': 'Category'}), on='Category', how='left')
+items_data = df_with_cat_id[['Item', 'Price Per Unit', 'CategoryID']].drop_duplicates().dropna()
+items_data = items_data.reset_index(drop=True)
+items_data['ItemID'] = range(1, len(items_data) + 1)
+items_table = items_data[['ItemID', 'Item', 'Price Per Unit', 'CategoryID']].rename(columns={
+    'Item': 'ItemName',
+    'Price Per Unit': 'PricePerUnit'
+})
+items_table.to_csv(NORMALIZE_DIR / "items.csv", index=False)
+normalized_tables['items'] = len(items_table)
+log(f"[OK] Items table: {len(items_table)} rows")
+
+# 5. Create Customers table
+log("5. Creating Customers table...")
+customers_data = df[['Customer ID']].drop_duplicates().dropna()
+customers_data = customers_data.reset_index(drop=True)
+customers_table = customers_data.rename(columns={'Customer ID': 'CustomerID'})
+customers_table.to_csv(NORMALIZE_DIR / "customers.csv", index=False)
+normalized_tables['customers'] = len(customers_table)
+log(f"[OK] Customers table: {len(customers_table)} rows")
+
+# 6. Create Transactions table (main fact table with all foreign keys)
+log("6. Creating Transactions table...")
+# Merge all lookup tables to get foreign keys
+df_normalized = df_with_cat_id.copy()
+
+# Add ItemID
+df_normalized = df_normalized.merge(
+    items_table.rename(columns={'ItemName': 'Item', 'PricePerUnit': 'Price Per Unit'})[['ItemID', 'Item', 'Price Per Unit']], 
+    on=['Item', 'Price Per Unit'], 
+    how='left'
+)
+
+# Add LocationID
+df_normalized = df_normalized.merge(
+    locations_table.rename(columns={'LocationName': 'Location'}), 
+    on='Location', 
+    how='left'
+)
+
+# Add PaymentMethodID
+df_normalized = df_normalized.merge(
+    payment_table.rename(columns={'PaymentMethodName': 'Payment Method'}), 
+    on='Payment Method', 
+    how='left'
+)
+
+# Create final transactions table
+transactions_table = df_normalized[[
+    'Transaction ID', 'Customer ID', 'PaymentMethodID', 'LocationID', 
+    'Transaction Date', 'Discount Applied', 'ItemID', 'Quantity', 'Total Spent'
+]].rename(columns={
+    'Transaction ID': 'TransactionID',
+    'Customer ID': 'CustomerID',
+    'Total Spent': 'TotalPrice'
+})
+
+transactions_table.to_csv(NORMALIZE_DIR / "transactions.csv", index=False)
+normalized_tables['transactions'] = len(transactions_table)
+total_normalized_rows = sum(normalized_tables.values())
+log(f"[OK] Transactions table: {len(transactions_table)} rows")
+
+# Normalization summary
+log("\n=== NORMALIZATION SUMMARY ===")
+log(f"Total normalized tables created: {len(normalized_tables)}")
+for table_name, row_count in normalized_tables.items():
+    log(f"  {table_name}.csv: {row_count:,} rows")
+log(f"Total rows across all tables: {total_normalized_rows:,}")
+log(f"Normalization completed successfully!")
+log(f"Tables saved to: {NORMALIZE_DIR}")
+
+# Save log (after all processing)
+log_file = RESULTS / "01_cleaning_log.txt"
+with open(log_file, "w") as f:
+    f.write("\n".join(log_lines))
+log(f"[OK] Saved complete log: {log_file.name}")
+
+print(f"\n[SUCCESS] Enhanced cleaning and normalization complete!")
+print(f"[INFO] Clean dataset: {CLEAN.name}")
+print(f"[INFO] Normalized tables: {NORMALIZE_DIR}")
+print(f"[INFO] Data retention: {(len(df) / cleaning_report['initial_rows'] * 100):.1f}%")
 print(f"[INFO] Dropped rows documented: {DROPPED_ROWS.name}")
 print(f"[INFO] Full log available: {log_file.name}")
